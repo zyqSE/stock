@@ -1,0 +1,19 @@
+current directory: /home/zyq/workspace/stock/vendor/bundle/gems/bcrypt-3.1.12/ext/mri
+/usr/bin/ruby2.3 -r ./siteconf20181110-26029-4pij77.rb extconf.rb
+creating Makefile
+
+current directory: /home/zyq/workspace/stock/vendor/bundle/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/zyq/workspace/stock/vendor/bundle/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/zyq/workspace/stock/vendor/bundle/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20181110-26029-19ww86l

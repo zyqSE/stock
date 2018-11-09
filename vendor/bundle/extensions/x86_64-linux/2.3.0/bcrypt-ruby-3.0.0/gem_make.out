@@ -1,0 +1,23 @@
+current directory: /home/zyq/workspace/stock/vendor/bundle/gems/bcrypt-ruby-3.0.0/ext/mri
+/usr/bin/ruby2.3 -r ./siteconf20181110-27243-1vuddwd.rb extconf.rb
+creating Makefile
+
+current directory: /home/zyq/workspace/stock/vendor/bundle/gems/bcrypt-ruby-3.0.0/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/zyq/workspace/stock/vendor/bundle/gems/bcrypt-ruby-3.0.0/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+bcrypt_ext.c: In function ‘bcrypt_wrapper’:
+bcrypt_ext.c:27:19: warning: implicit declaration of function ‘ruby_bcrypt’ [-Wimplicit-function-declaration]
+     return (VALUE)ruby_bcrypt(args->output, args->key, args->salt);
+                   ^
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/zyq/workspace/stock/vendor/bundle/gems/bcrypt-ruby-3.0.0/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20181110-27243-fjdmh5
