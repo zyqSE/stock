@@ -1,3 +1,6 @@
 <%= @user.name %>, <%= @user.email %>
 <%= link_to "logout", logout_path, method: :delete %>
 
+  <% if current_user.admin? %>
+    | <%= link_to "Users", users_path %>
+  <% end %>
