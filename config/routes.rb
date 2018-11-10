@@ -1,5 +1,5 @@
 Stock::Application.routes.draw do
-  root 'welcome#home'
+  root 'sessions#new'
  
   get '/signup',to: 'users#new'
   get '/login',to: 'sessions#new'
