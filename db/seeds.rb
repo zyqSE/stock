@@ -10,3 +10,13 @@ User.create!(name:  "stock",
              password:              "stockstock",
              password_confirmation: "stockstock",
              admin: true)
+
+6.times do |n|
+  name = "test#{n}"
+  email = "#{name}@stock.com"
+  password = "#{name}#{name}"
+  User.create!(name:  name,
+               email: email,
+               password:              password,
+               password_confirmation: password)
+end
