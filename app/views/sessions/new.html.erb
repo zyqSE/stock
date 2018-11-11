@@ -1,12 +1,12 @@
 <%= form_for(:session, url: login_path) do |f| %>
-
+      
       <%= f.label :email %>
       <%= f.email_field :email, class: 'form-control' %>
 
       <%= f.label :password %>
       <%= f.password_field :password, class: 'form-control' %>
 
-      <%= f.submit "Log in", class: "btn btn-primary" %>
+      <%= f.submit "登陆", class: "btn btn-primary" %>
     <% end %>
 
 <%= link_to "没有账号？立即注册", signup_path %>

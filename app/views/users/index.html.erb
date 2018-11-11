@@ -2,12 +2,14 @@
   <% @users.each do |user| %>
     <li>
       <%= link_to user.name, user %>
-      <%= link_to "delete", user, method: :delete, data: { confirm: "You sure?" } %>
+      <% if !user.admin? %>
+      <%= link_to "删除", user, method: :delete, data: { confirm: "确定要删除此用户吗?" } %>
+      <% end %>
     </li>
   <% end %>
 </ul>
 
 
-<%= link_to "返回" ,:back %>
+<%= link_to "返回" , @users.first %>
 
 

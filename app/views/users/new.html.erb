@@ -1,17 +1,15 @@
 <%= form_for(@user) do |f| %>
-      <%= render 'shared/error_messages' %>
-
-      <%= f.label :name %>
+      <%= f.label :昵称 %>
       <%= f.text_field :name %>
 
-      <%= f.label :email %>
+      <%= f.label :邮箱 %>
       <%= f.email_field :email %>
 
-      <%= f.label :password %>
+      <%= f.label :密码 %>
       <%= f.password_field :password %>
 
-      <%= f.label :password_confirmation, "Confirmation" %>
+      <%= f.label :password_confirmation, "确认密码" %>
       <%= f.password_field :password_confirmation %>
 
-      <%= f.submit "Create my account" %>
+      <%= f.submit "创建账号" %>
     <% end %>
