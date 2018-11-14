@@ -1,7 +1,8 @@
 Stock::Application.routes.draw do
  
   root 'welcome#home'
- 
+  
+  get '/login',to: 'sessions#new'
   get '/signup',to: 'users#new'
   post '/login',to: 'sessions#create'
   delete '/logout',to: 'sessions#destroy'

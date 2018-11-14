@@ -1,13 +1,9 @@
-<%= form_for(:session, url: login_path) do |f| %>
-      
-      <%= f.label :email %>
-      <%= f.email_field :email, class: 'form-control' %>
+<%= form_for(:session, url: login_path, method: "POST") do |f| %>
+	<%= f.label :邮箱 %>
+	<%= f.email_field :email, class: 'form-control' %>
 
-      <%= f.label :password %>
-      <%= f.password_field :password, class: 'form-control' %>
+	<%= f.label :密码 %>
+	<%= f.password_field :password, class: 'form-control' %>
 
-      <%= f.submit "登陆", class: "btn btn-primary" %>
-    <% end %>
-
-<%= link_to "没有账号？立即注册", signup_path %>
-
+	<%= f.submit "登录", class: "form-control btn mybtn-primary" %>
+<% end %>

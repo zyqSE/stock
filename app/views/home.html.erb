@@ -68,6 +68,14 @@
 
             border-radius: 30px;
         }
+        .logo-box{
+            margin-top: 30%;
+            margin-left: 4%;
+            width: 23%;
+            height: 15%;
+            background-color: white;
+            background: url(<%= asset_data_uri 'logo.png' %>);
+        }
     </style>
 </head>
 </head>
@@ -79,26 +87,25 @@
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-5">
-                
-                    <%= form_for(:session, url: login_path, method: "POST") do |f| %>
-                        <%= f.label :邮箱 %>
-                        <%= f.email_field :email, class: 'form-control' %>
-
-                        <%= f.label :密码 %>
-                        <%= f.password_field :password, class: 'form-control' %>
-
-                        <%= f.submit "登录", class: "form-control btn mybtn-primary" %>
-                    <% end %>
-                 
-                    <div style="margin-top: 55%">
+                    <form style="margin-top:35px" action="/login" method="GET">
+                        <div class="custom-control custom-control-inline">
+                            <input id="email" name="email" type="text" class="form-control" placeholder="邮箱"/>
+                        </div>
+                        <div class="custom-control custom-control-inline">
+                            <input id="password" name="password" type="password" class="form-control" placeholder="密码"/>
+                        </div>
+                        <button type="submit" class="btn mybtn-login">登&nbsp;&nbsp;录</button>
+                    </form>
+                    <div class="logo-box"></div>
+                    <div>
                         <h3 class="simple-font-h">把握现在，预知“未来”</h3>
                         <p class="simple-font-p">开始体验吧！</p>
                         <form>
                             <div class="custom-control">
-                                <button type="submit" formaction="/signup"  class="form-control btn mybtn-primary">注册</button>
+                                <button type="button" class="form-control btn mybtn-primary">注册</button>
                             </div>
                             <div class="custom-control">
-                                <button type="submit" formaction="/login" class="form-control btn mybtn-light">登录</button>
+                                <button type="button" class="form-control btn mybtn-light">登录</button>
                             </div>
                         </form>
                     </div>
