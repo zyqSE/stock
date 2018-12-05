@@ -15,7 +15,7 @@ class SessionsController < ApplicationController
     else
       # 创建一个错误消息
       flash.now[:danger] = 'Invalid email/password combination'
-      render 'new'
+      redirect_to root_url
     end
   end
 
