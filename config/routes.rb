@@ -2,8 +2,12 @@ Stock::Application.routes.draw do
  
   root 'welcome#home'
   
-  get '/login',to: 'sessions#new'
-  get '/signup',to: 'users#new'
+  get '/login',to: 'welcome#home'
+  get '/default',to: 'welcome#default'
+  get '/mainpage',to: 'welcome#mainpage'
+  get '/signup',to: 'welcome#signup'
+  post '/newuser',to: 'users#create'
+  get '/demopredict',to: 'welcome#demoprediction' 
   post '/login',to: 'sessions#create'
   delete '/logout',to: 'sessions#destroy'
   resources :users

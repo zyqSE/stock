@@ -19,9 +19,9 @@ class UsersController < ApplicationController
     if @user.save
       log_in @user
       flash[:success] = "Welcome to the StockPrection System!"
-      redirect_to @user
+      redirect_to '/mainpage'
     else
-      render 'new'
+      render 'signup'
     end
   end
 

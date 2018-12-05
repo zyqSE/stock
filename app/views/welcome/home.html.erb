@@ -1,8 +1,12 @@
 <!DOCTYPE html>
+<!--
+    Created By Xuanzhengbo Ren, 2018.
+    Entry of Stock-Seer.
+-->
 <html>
 <head>
     <meta charset="utf-8"> 
-    <title>Stock-Seer股票价格预测</title>
+    <title>Stock-Seer用户登录</title>
     <!-- 新 Bootstrap4 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
@@ -11,7 +15,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
+    <!-- Font Awesome !!! -->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!--myself CSS-->
     <style>
         html,body{
@@ -22,7 +27,7 @@
         border:0px;
         }
         .myfoot{
-            height: 70px;
+            height: 60px;
             border-style: solid;
             border-width:1px 0px 0px 0px;
             border-top-color: darkgray;
@@ -62,11 +67,45 @@
 
             border-radius: 30px;
         }
+        .mybtn-primary:focus{
+            background: #4ca1ebde;
+        }
+        .mybtn-primary:hover{
+            background: #4ca1ebde;
+        }
         .mybtn-login{
             background: #4ca0eb;
             color: white;
-
             border-radius: 30px;
+        }
+        .mybtn-login:focus{
+            background: #4ca1ebde;
+        }
+        .mybtn-login:hover{
+            background: #4ca1ebde;
+        }
+        .logo-box{
+            margin-top: 20%;
+            margin-left: 4%;
+            width: 33%;
+            height: 15%;
+            background-color: white;
+        }
+        .introduce-div{
+            background: #4ca0eb;
+        }
+        .introduce-box{
+            margin-top: 47%;
+            margin-left: 30%;
+        }
+        .introduce-box h2{
+            font-size: 25px;
+            font-family: sans-serif;
+            margin-bottom: 40px;
+            color: white;
+        }
+        .lgin-form{
+            margin-top:35px;
         }
     </style>
 </head>
@@ -74,36 +113,47 @@
 <body>
     <div class="container-fluid" style="height:100%">
         <div class="row" style="height:100%">
-            <div class="col-md-6" style="background: #4ca0eb;">
-                66666
+            <div class="col-md-6 introduce-div">
+                <div class="introduce-box">
+                    <h2><i class="fa fa-search"></i>&nbsp;&nbsp;丰富的股票数据查询</h3>
+                    <h2><i class="fa fa-line-chart"></i>&nbsp;精准的未来走势预测</h3>
+                    <h2><i class="fa fa-pie-chart"></i>&nbsp;&nbsp;可靠的股票投资评估</h3>
+                </div>
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-5">
-                
-                    <%= form_for(:session, url: login_path, method: "POST") do |f| %>
-                        <%= f.label :邮箱 %>
-                        <%= f.email_field :email, class: 'form-control' %>
-
-                        <%= f.label :密码 %>
-                        <%= f.password_field :password, class: 'form-control' %>
-
-                        <%= f.submit "登录", class: "form-control btn mybtn-primary" %>
+                    <!-- <form action="/login" method="POST">
+                        <div class="lgin-form custom-control custom-control-inline">
+                            <input id="email" name="email" type="text" class="form-control" placeholder="邮箱"/>
+                        </div>
+                        <div class="custom-control custom-control-inline">
+                            <input id="password" name="password" type="password" class="form-control" placeholder="密码"/>
+                        </div>
+                        <button type="submit" class="btn mybtn-login">登&nbsp;&nbsp;录</button>
+                    </form> -->
+                    <%= form_for(:session, url: "login") do |f| %>
+                        <div class="login-form custom-control custom-control-inline">
+                            <%= f.text_field :email, class: "form-control", placeholder: "邮箱"%>
+                        </div>
+                        <div class="custom-control custom-control-inline">
+                            <%= f.password_field :password, class: "form-control", placeholder: "密码"%>
+                        </div>
+                        <%= f.submit "登录", class: "btn mybtn-login"%>
                     <% end %>
-                 
-                    <div style="margin-top: 55%">
+                    
+                    <img class="logo-box" src='<%=image_path("logo_mini.png") %>'/>
+                    <div>
                         <h3 class="simple-font-h">把握现在，预知“未来”</h3>
                         <p class="simple-font-p">开始体验吧！</p>
                         <form>
                             <div class="custom-control">
-                                <button type="submit" formaction="/signup"  class="form-control btn mybtn-primary">注册</button>
+                                <input type="button" value="注册" class="form-control btn mybtn-primary" onclick="window.location.href='/signup'"></input>
                             </div>
                             <div class="custom-control">
-                                <button type="submit" formaction="/login" class="form-control btn mybtn-light">登录</button>
+                                <input type="button" value="登录" class="form-control btn mybtn-light" onclick="window.location.href=root_url"</input>
                             </div>
                         </form>
                     </div>
-                    
-                
             </div>
         </div>
     </div>
