@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(@mystock) do |s| %>
+      <%= s.label :name %>
+      <%= s.text_field :name %>
+
+      <%= s.label :code %>
+      <%= s.text_field :code %>
+
+      <%= s.submit "添加股票", class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
+<div>
+  <%= link_to "返回" , request.referer %>
+</div>

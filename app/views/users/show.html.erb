@@ -1,8 +1,13 @@
 <%= @user.name %>, <%= @user.email %>
-
+<div>
   <% if current_user.admin? %>
     <%= link_to "查看所有用户", users_path %> |
   <% end %>
 
   <%= link_to "退出", logout_path, method: :delete %>
-
+</div>
+<div>
+    <%= link_to "查看所有股票", mystocks_path %>
+</div>
+<div>
+    <%= link_to "添加股票", new_mystock_path %>

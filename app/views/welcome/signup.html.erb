@@ -10,11 +10,13 @@
     <!-- 新 Bootstrap4 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
     <!-- popper.min.js 用于弹窗、提示、下拉菜单 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- 前端表单验证插件 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.min.js"></script>
     <!-- myself css-->
     <style>
         .signup-box{
@@ -36,9 +38,9 @@
         }
         .mybtn-primary{
             width: 100%;
+            padding-bottom: 10px;
             background: #4ca0eb;
             color: white;
-
             border-radius: 30px;
         }
         .mybtn-primary:focus{
@@ -48,6 +50,50 @@
             background: #4ca1ebde;
         }
     </style>
+    <script>
+        $().ready(function(){
+            $('#new_user').validate({
+                rules:{
+                    'user[name]':{
+                        required: true,
+                        minlength: 2
+                    },
+                    'user[email]':{
+                        required: true,
+                        email: true
+                    },
+                    'user[password]':{
+                        required:true,
+                        minlength: 5
+                    },
+                    'users[password_confirmation]':{
+                        required:true,
+                        minlength: 5,
+                        equalTo: "#users_password"
+                    }
+                },
+                messages:{
+                    'user[name]':{
+                        required: "请输入姓名",
+                        minlength: "姓名长度不能小于2个字母"
+                    },
+                    'user[email]':{
+                        required: "请输入邮箱",
+                        email: "请输入正确的邮箱格式",
+                    },
+                    'user[password]':{
+                        required: "请输入密码",
+                        minlength: "密码长度不能小于5个字母"
+                    },
+                    'user[password_confirmation]':{
+                        required: "请输入确认密码",
+                        minlength: "密码长度不能小于 5 个字母",
+                        equalTo: "两次密码输入不一致"
+                    }
+                }
+            });
+        });
+    </script>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
@@ -61,32 +107,26 @@
           <div class="row">
               <div class="signup-box col-md-4 offset-md-4">
                     <h2 class="simple-font-h text-center">用户注册</h2>
-                    <form accept-charset="UTF-8" action="/newuser" class="new_user" id="new_user" method="post">
-                      <input name="utf8" type="hidden" value="&#x2713;" />
-                      <input name="authenticity_token" type="hidden" value="NNb6+J/j46LcrgYUC60wQ2titMuJQ5lLqyAbnbAUkdo=" />
-                      <div class="form-group">
-                        <label for="user_name">姓名：</label>
-                        <input class="form-control" id="user_name" name="user[name]" type="text" placeholder="Enter Name" />
-                      </div>
-
-                      <div class="form-group">
-                        <label for="user_email">邮箱：</label>
-                        <input class="form-control" id="user_email" name="user[email]" type="email" placeholder="Enter email" />
-                      </div>
-
-                      <div class="form-group">
-                        <label for="user_password">密码：</label>
-                        <input class="form-control" id="user_password" name="user[password]" type="password" placeholder="Enter password" />
-                      </div>
-
-                      <div class="form-group">
-                        <label for="user_password_confirmation">确认密码：</label>
-                        <input class="form-control" id="user_password_confirmation" name="user[password_confirmation]" type="password" placeholder="Confirm password" />
-                      </div>
-
-                      <input class="btn btn-primary" name="commit" type="submit" value="注册账号" />
-                    </form>
-             </div>
+                    <%= form_for(:user, url: "newuser", html:{class: "signup-form", id: "new_user"}) do |f|%>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <%= f.text_field :email, class: "form-control", placeholder: "Enter email"%>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">姓名:</label>
+                            <%= f.text_field :name, class: "form-control", placeholder: "Enter name"%>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">密码:</label>
+                            <%= f.password_field :password, class: "form-control", placeholder: "Enter password"%>
+                        </div>
+                        <div class="form-group">
+                            <label for="cpassword">确认密码:</label>
+                            <%= f.password_field :password_confirmation, class: "form-control", placeholder: "Confirm password"%>
+                        </div>
+                        <%= f.submit "注册账号", class: "btn mybtn-primary"%>
+                    <% end %>
+              </div>
           </div>
       </div>
 </body>

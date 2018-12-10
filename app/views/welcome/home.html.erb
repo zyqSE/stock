@@ -122,34 +122,28 @@
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-5">
-                    <!-- <img class="logo-box" src="/Users/renxuanzhengbo/Desktop/views/logo_mini.png"/> -->
+                    <%= form_for(:session, url: "login") do |f| %>
+                        <div class="lgin-form custom-control custom-control-inline">
+                            <%= f.text_field :email, class: "form-control", placeholder: "邮箱"%>
+                        </div>
+                        <div class="custom-control custom-control-inline">
+                            <%= f.password_field :password, class: "form-control", placeholder: "密码"%>
+                        </div>
+                        <%= f.submit "登录", class: "btn mybtn-login" %>
+                    <% end %>
+                    
                     <img class="logo-box" src='<%=image_path("logo_mini.png") %>'/>
                     <div>
                         <h3 class="simple-font-h">把握现在，预知“未来”</h3>
                         <p class="simple-font-p">开始体验吧！</p>
-                        <form accept-charset="UTF-8" action="/login" method="post">
-                          <input name="utf8" type="hidden" value="&#x2713;" />
-                          <input name="authenticity_token" type="hidden" value="NNb6+J/j46LcrgYUC60wQ2titMuJQ5lLqyAbnbAUkdo=" />
-                          <div class="form-group">                      
-                            <label for="session_email">邮箱：</label>
-                            <input class="form-control" id="session_email" name="session[email]" type="text" placeholder="邮箱" />
-                          </div>
-          
-                          <div class="form-group">
-                            <label for="session_password">密码：</label>
-                            <input class="form-control" id="session_password" name="session[password]" type="password" placeholder="密码" />
-                          </div>
-                          
-                          <div class="form-group">
-                                <input class="form-control btn mybtn-light" name="commit" type="submit" value="登录" />
-                          </div>
-
-                          <div class="form-group">
+                        <form>
+                            <div class="custom-control">
                                 <input type="button" value="注册" class="form-control btn mybtn-primary" onclick="window.location.href='/signup'"></input>
-                          </div>
-
+                            </div>
+                            <div class="custom-control">
+                                <button type="button" class="form-control btn mybtn-light">登录</button>
+                            </div>
                         </form>
-
                     </div>
             </div>
         </div>

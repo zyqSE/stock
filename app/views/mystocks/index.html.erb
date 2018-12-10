@@ -1,0 +1,12 @@
+<ul class="mystocks">
+  <% @mystocks.each do |mystock| %>
+    <li>
+      <%= mystock.name %>
+      <%= mystock.code %>
+      <%= link_to "删除", mystock, method: :delete, data: { confirm: "确定要删除此股票吗?" } %>
+    </li>
+  <% end %>
+</ul>
+
+
+<%= link_to "返回" , 'users/1' %>

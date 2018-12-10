@@ -20,7 +20,7 @@
     <script src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/echarts.min.js"></script>
     <script src="https://cdn.bootcss.com/echarts/4.2.0-rc.2/extension/dataTool.min.js"></script>
     <!-- Font-Awesome !!! -->
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- 自定义的javascript程序 -->
     <% javascript_include_tag("common-tools") %>
     <!-- myself css -->
@@ -37,30 +37,36 @@
             background-color: #a0a0a052;
         }
         .search-input{
-            margin-top: 40%;
+            margin-top: 5%;
             margin-left: 5px;
         }
         .res-blk{
             border-bottom:1px solid;
             border-color: #88888865;
             padding-bottom: 10px;
+            margin-left: 5px;
         }
     </style>
     <script>
         var urlDefalut = "/default";
-        var urlPrediction = "/prediction";
-        var urlDemo = "/demopredict";
-        var urlEvaluation = "/evaluate";
-        $(loadPage('content', urlDemo));
+        //做演示用，之后修改
+        var urlPrediction = "/demopredict";
+        //做演示用，之后修改
+        var urlEvaluation = "/demoevaluate";
+        $(loadPage('content', urlPrediction));
     </script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
         <!-- Brand/logo -->
         <a class="navbar-brand" href="#">
           <img src='<%=image_path("logo_mini.png") %>' alt="logo" style="width:60px;">
           <P style="display:inline">股票价格预测工具</P>
         </a>
+
+        <div style="margin-left:77%">
+            <%= link_to "logout", logout_path, method: "delete" %>
+        </div>
     </nav>
     <div class="contianer-fluid" style="height:100%">
         <div class="row" style="height:100%">

@@ -4,12 +4,15 @@ class WelcomeController < ApplicationController
   def home
   end
   def default
+    @history=[1,2,3,4,5]
   end
   def mainpage
   end
   def signup
   end
   def demoprediction
+  end
+  def demoevaluate
   end
 
   private

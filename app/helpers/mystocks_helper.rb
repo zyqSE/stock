@@ -1,0 +1,2 @@
+module MystocksHelper
+end
