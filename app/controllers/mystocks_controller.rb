@@ -7,6 +7,13 @@ def new
   @mystock = Mystock.new
 end
 
+def search
+  #@stockDatas = Mystock.all
+  #模糊查询
+  @stockDatas = Mystock.where("code LIKE ?", "%#{params[:stock_code]}%")
+  render :json=> @stockDatas
+end
+
 def create
   @mystock = Mystock.new(mystock_params)
   @mystock.save
