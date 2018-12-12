@@ -42,10 +42,10 @@
             margin-left: 5px;
         }
         .group-overflow{
-            overflow-x: scroll;
+            overflow-y: scroll;
         }
         .content-overflow{
-            overflow-x: scroll;
+            overflow-y: scroll;
         }
         .res-blk{
             border-bottom:1px solid;
@@ -71,7 +71,7 @@
         var urlPrediction = "/demopredict";
         //做演示用，之后修改
         var urlEvaluation = "/demoevaluate";
-        $(loadPage('content', urlPrediction));
+        $(loadPage('content', urlDefalut));
     </script>
 </head>
 <body>
@@ -145,10 +145,11 @@
                 }
             });
         });
-
         function gotoAnalyse(event){
             stockCode = $(event.target).val();
-            alert(stockCode+": Go to analyse!");
+            //alert(stockCode+": Go to analyse!");
+            //load prediction page
+            loadPage('content', urlPrediction);
         }
     </script>
 </body>
