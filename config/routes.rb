@@ -7,6 +7,7 @@ Stock::Application.routes.draw do
   get '/mainpage',to: 'welcome#mainpage'
   get '/signup',to: 'welcome#signup'
   post '/newuser',to: 'users#create'
+  post '/search',to: 'mystocks#search'
   get '/demopredict',to: 'welcome#demoprediction'
   get '/demoevaluate',to: 'welcome#demoevaluate' 
   post '/login',to: 'sessions#create'
