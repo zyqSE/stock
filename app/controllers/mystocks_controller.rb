@@ -10,7 +10,7 @@ def new
 end
 
 def search
-  # @stockDatas = Mystock.all
+  #@stockDatas = Mystock.all
   #模糊查询
   @stockDatas = Mystock.where("code LIKE ?", "%#{params[:stock_code]}%")
   render :json=> @stockDatas
