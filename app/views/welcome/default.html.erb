@@ -3,14 +3,37 @@
 <head>
     <meta charset="utf-8">
     <title>Defalut Page</title>
-    <script>
-    </script>
 </head>
 <body>
-    <div class="container-fluid" style="margin-top: 25%">
-        <div class="row">
-            <h1>Defalut...</h1>
-            <%= @history[1] %></h1>
+    <div class="container-fluid">
+        <div class="jumbotron" style="margin-top:3%">
+            <h1>欢迎使用股票价格预测工具</h1>
+        </div>
+        <div>
+            <h2>使用说明</h2>
+            <h4><i class="fa fa-caret-right"></i>股票信息查询</h4>
+            <ul>
+                <li><p>向左侧的输入框中输入股票代码</p></li>
+                <li><p>点击<kbd>Go</kbd>按钮即可获取查询结果</p></li>
+            </ul>
+            <h4><i class="fa fa-caret-right"></i>股票价格预测与评估</h4>
+            <ul>
+                <li><p>在左侧的查询结果中点击想预测那支股票</p></li>
+                <li><p>稍等片刻，便可在屏幕右侧看到近一周的历史价格与未来一周的预测价格</p></li>
+                <li><p>点击图表下方的<kbd>股票评估</kbd>按钮，即可查看该只股票的评估数据</p></li>
+                <li><p>相对应地，点击评估数据下方的<kbd>价格预测</kbd>按钮，即可回到股价预测表格</p></li>
+            </ul>
+        </div>
+        <div>
+            <h2>关于我们</h2>
+            <dl>
+                <dt><h4><i class="fa fa-caret-right"></i>开发人员</h4></dt>
+                <dd>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i>&nbsp;&nbsp;前端：任轩正博</dd>
+                <dd>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i>&nbsp;&nbsp;后端：张雨晴</dd>
+                <dd>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right"></i>&nbsp;&nbsp;数据处理：杨雪莹</dd>
+                <dt><h4><i class="fa fa-caret-right"></i><i class="fa fa-github"></i>Github</h4></dt>
+                <dd>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-link"></i><a href="https://github.com/zyqSE/stock">https://github.com/zyqSE/stock</a></dd>
+            </dl>
         </div>
     </div>
 </body>

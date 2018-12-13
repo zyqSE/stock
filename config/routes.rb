@@ -1,12 +1,13 @@
 Stock::Application.routes.draw do
  
   root 'welcome#home'
-  
+  get '/price',to: 'mystocks#price'
   get '/login',to: 'welcome#home'
   get '/default',to: 'welcome#default'
   get '/mainpage',to: 'welcome#mainpage'
   get '/signup',to: 'welcome#signup'
   post '/newuser',to: 'users#create'
+  post '/search',to: 'mystocks#search'
   get '/demopredict',to: 'welcome#demoprediction'
   get '/demoevaluate',to: 'welcome#demoevaluate' 
   post '/login',to: 'sessions#create'
