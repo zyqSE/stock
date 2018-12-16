@@ -16,19 +16,25 @@ def search
   render :json=> @stockDatas
 end
 
+def prediction
+  @stock_code = params[:code]
+end
+
 def price
   #history
-  stock_code=600292
-  stock_code=stock_code.to_s
-  code=File.new("app/controllers/temp/code.txt","w")
+  #stock_code=600292
+  stock_code = params[:code]
+  stock_code = stock_code.to_s
+  code = File.new("app/controllers/temp/code.txt","w")
   code.puts stock_code
   code.close
   #start_t=180.days.ago.strftime('%Y-%m-%d')
   #end_t=Time.now.strftime('%Y-%m-%d')
   `python app/controllers/temp/history.py`
   `python app/controllers/temp/csv2json.py app/controllers/temp/history.csv`
-  json = File.read("app/controllers/temp/history.json")
-  @history_price=JSON.parse(json)
+  #json = File.read("app/controllers/temp/history.json")
+  @history_price = File.read("app/controllers/temp/history.json")
+  render :json=> @history_price
   
   #future
 end

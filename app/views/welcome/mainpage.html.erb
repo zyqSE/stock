@@ -67,8 +67,8 @@
     <script>
         //默认页面 一些使用说明
         var urlDefalut = "/default";
-        //做演示用，之后修改
-        var urlPrediction = "/demopredict";
+        //predictoin url base
+        var urlPrediction = "/predict/";
         //做演示用，之后修改
         var urlEvaluation = "/demoevaluate";
         $(loadPage('content', urlDefalut));
@@ -128,7 +128,7 @@
                     alert('Oooops~ Something gose wrong.');
                 },
                 success: function(data){
-                    console.log(data);
+                    //console.log(data);
                     if(data != null){
                         //清空原结果
                         $('#search_result').empty();
@@ -152,7 +152,7 @@
             stockCode = $(event.target).val();
             //alert(stockCode+": Go to analyse!");
             //load prediction page
-            loadPage('content', urlPrediction);
+            loadPage('content', urlPrediction+stockCode);
         }
     </script>
 </body>
