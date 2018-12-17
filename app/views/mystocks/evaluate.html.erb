@@ -1,0 +1,84 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Stock-Seer股票评估</title>
+    <!-- myself css -->
+    <style>
+        html,body{
+        height:100%;
+        width:100%;
+        padding:0px;
+        margin: 0px;
+        border:0px;
+        }
+        .search-form{
+            height: 100%;
+            background-color: #a0a0a052;
+        }
+    </style>
+    <script>
+        //to predict page
+        $('#btn_predict').on('click', function(){ loadPage('content', urlPrediction)});
+    </script>
+</head>
+<body>
+    <div class="container-fluid" style="height: 100%; margin-top: 7%">
+        <div class="row" id="evaluation" style="height: 90%">
+        </div>
+        <button id="btn_predict" class="btn btn-primary" style="margin-left: 47%; margin-top: 1%">价格预测</button>
+    </div>
+    <script>
+        var dom = document.getElementById("evaluation");
+        var evaluationChart = echarts.init(dom);
+        var app = {};
+        option = null;
+        option = {
+            title: {
+                text: '股票评估图'
+            },
+            tooltip: {},
+            legend: {
+                data: ['预算分配（Allocated Budget）', '实际开销（Actual Spending）']
+            },
+            radar: {
+                // shape: 'circle',
+                name: {
+                    textStyle: {
+                        color: '#fff',
+                        backgroundColor: '#999',
+                        borderRadius: 3,
+                        padding: [3, 5]
+                }
+                },
+                indicator: [
+                { name: '销售（sales）', max: 6500},
+                { name: '管理（Administration）', max: 16000},
+                { name: '信息技术（Information Techology）', max: 30000},
+                { name: '客服（Customer Support）', max: 38000},
+                { name: '研发（Development）', max: 52000},
+                { name: '市场（Marketing）', max: 25000}
+                ]
+            },
+            series: [{
+                name: '预算 vs 开销（Budget vs spending）',
+                type: 'radar',
+                // areaStyle: {normal: {}},
+                data : [
+                    {
+                        value : [4300, 10000, 28000, 35000, 50000, 19000],
+                        name : '预算分配（Allocated Budget）'
+                    },
+                    {
+                        value : [5000, 14000, 28000, 31000, 42000, 21000],
+                        name : '实际开销（Actual Spending）'
+                    }
+                ]
+            }]
+        };;
+        if (option && typeof option === "object") {
+            evaluationChart.setOption(option, true);
+        }
+    </script>
+</body>
+</html>
