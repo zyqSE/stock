@@ -10,6 +10,8 @@ class WelcomeController < ApplicationController
   end
   def signup
   end
+  def login
+  end
   def demoprediction
   end
   def demoevaluate

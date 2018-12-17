@@ -36,8 +36,8 @@ def price
   if File.exists?(data_file) then
     #@history_price = File.read(data_file)
   else
-    `python app/controllers/temp/history.py`
-    `python app/controllers/temp/csv2json.py`
+     `python app/controllers/temp/history.py`
+     `python app/controllers/temp/csv2json.py`
      #json = File.read("app/controllers/temp/history.json")
   end
   @history_price = File.read(data_file)
