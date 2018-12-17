@@ -19,6 +19,6 @@ class WelcomeController < ApplicationController
 
   private
     def correct_user
-      redirect_to(login_url) unless (request.referer == root_url)||(request.referer == signup_url)
+      redirect_to(login_url) unless (request.referer == root_url)||(request.referer == signup_url) ||(request.url == mainpage_url)
     end
 end
