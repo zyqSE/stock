@@ -1,22 +1,18 @@
 #!/bin/sh
 #获取昨天日期 yyyy-MM-dd 格式
 source /etc/profile
-yesterday=`date --date='1 days ago' +%Y-%m-%d`
+today=`date +%Y-%m-%d`
+#yesterday=`date --date='1 days ago' +%d%m%Y`
 log_path="/root/Stock/stock/log/cleanup.log"
+file_path="/root/Stock/stock/app/controllers/temp/data"
 
-echo ${yesterday}": cleanup executing..." >> $log_path
-#删除昨天的json文件
-rm -f *${yesterday}.json
+echo ${today}": cleanup 1-day-ago files executing..." >> $log_path
+#删除1天前的json文件
+find $file_path -mtime +1 -name "*.json" -exec rm -rf {} \;
+#执行情况输入日志文件中
 if [ $? -ne 0 ]; then
-    echo ${yesterday}": clean up json failed." >> $log_path
+    echo ${today}": clean up json failed." >> $log_path
 else
-    echo ${yesterday}": clean up json success." >> $log_path
-fi
-#删除昨天的csv文件
-rm -f *${yesterday}.csv
-if [ $? -ne 0 ]; then
-    echo ${yesterday}": clean up csv failed." >> $log_path
-else
-    echo ${yesterday}": clean up csv success." >> $log_path
+    echo ${today}": clean up json success." >> $log_path
 fi
 
