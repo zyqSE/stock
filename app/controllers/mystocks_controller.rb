@@ -21,20 +21,29 @@ def prediction
 end
 
 def price
-  #history
+  #`python app/controllers/temp/autodelete.py`
+  #history获取历史价格
+  #stock_code=600292
   stock_code = params[:code]
   stock_code = stock_code.to_s
+  stock_code = stock_code.rjust(6,'0')
   code = File.new("app/controllers/temp/code.txt","w")
   code.puts stock_code
   code.close
   #start_t=180.days.ago.strftime('%Y-%m-%d')
   #end_t=Time.now.strftime('%Y-%m-%d')
-  `python app/controllers/temp/history.py`
-  `python app/controllers/temp/csv2json.py app/controllers/temp/history.csv`
-  @history_price = File.read("app/controllers/temp/history.json")
+  data_file = "app/controllers/temp/data/history_" + stock_code + ".json"
+  if File.exists?(data_file) then
+    #@history_price = File.read(data_file)
+  else
+     `python app/controllers/temp/history.py`
+     `python app/controllers/temp/csv2json.py`
+     #json = File.read("app/controllers/temp/history.json")
+  end
+  @history_price = File.read(data_file)
   render :json=> @history_price
   
-  #future
+  #future获取预测价格
 end
 
 def create

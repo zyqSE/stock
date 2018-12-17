@@ -47,7 +47,7 @@
                     chartHistory.hideLoading();
                     //console.log(data);
                     //数据预处理
-                    historyData.reveese();
+                    historyData.reverse();
                     $.each(historyData, function(idx, dayData){
                         categoryData.push(dayData.date);
                         dailyValues.push([dayData.open, dayData.close, dayData.low, dayData.high]);

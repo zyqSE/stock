@@ -1,9 +1,0 @@
-<%= form_for(:session, url: login_path, method: "POST") do |f| %>
-	<%= f.label :邮箱 %>
-	<%= f.email_field :email, class: 'form-control' %>
-
-	<%= f.label :密码 %>
-	<%= f.password_field :password, class: 'form-control' %>
-
-	<%= f.submit "登录", class: "form-control btn mybtn-primary" %>
-<% end %>

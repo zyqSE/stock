@@ -1,7 +1,16 @@
 import sys
 import json
 import io
-input_file = sys.argv[1]
+import os
+
+code_file=open("app/controllers/temp/code.txt","r")
+#code_file=open("code.txt","r")
+code = code_file.read().splitlines()
+code_file.close()
+code=''.join(code)
+code=code.zfill(6)
+
+input_file = 'app/controllers/temp/data/history_' + code + '.csv'
 lines = io.open(input_file, "r", encoding="utf_8_sig").readlines()
 
 lines = [line.strip() for line in lines]
@@ -26,3 +35,5 @@ output_file = input_file.replace("csv", "json")
 f = open(output_file, "w")
 f.write(json_str)
 f.close()
+
+os.remove(input_file)

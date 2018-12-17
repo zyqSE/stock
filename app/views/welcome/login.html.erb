@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+    Created By zyq, 2018.
+    Entry of user login
+-->
+<html>
+<head>
+    <meta charset="utf-8"> 
+    <title>用户登录</title>
+    <!-- 新 Bootstrap4 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- popper.min.js 用于弹窗、提示、下拉菜单 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- myself css-->
+    <style>
+
+        .login-box{
+
+            margin-top: 10%;
+
+            border: 1px;
+
+            border-style: solid;
+
+            border-color: #88888865;
+
+            border-radius: 10px;
+
+        }
+
+        .signup-form{
+
+            margin-top:20px;
+
+            margin-bottom: 20px;
+
+        }
+
+        .simple-font-h{
+
+            margin-top: 4%;
+
+            margin-bottom: 7%; 
+
+            font-weight: bold; 
+
+            font-family: sans-serif;
+
+        }
+
+        .mybtn-primary{
+
+            width: 100%;
+
+            padding-bottom: 10px;
+
+            background: #4ca0eb;
+
+            color: white;
+
+            border-radius: 30px;
+
+        }
+
+        .mybtn-primary:focus{
+
+            background: #4ca1ebde;
+
+        }
+
+        .mybtn-primary:hover{
+
+            background: #4ca1ebde;
+
+        }
+
+    </style>
+</head>
+</head>
+<body>
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="login-box col-md-4 offset-md-4">
+
+            <h2 class="simple-font-h text-center">用户登录</h2>
+                    <%= form_for(:session, url: "login") do |f| %>
+                        <div class="form-group">
+                            <label for="email">邮箱:</label>
+                            <%= f.text_field :email, class: "form-control", placeholder: "邮箱"%>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">密码:</label>
+                            <%= f.password_field :password, class: "form-control", placeholder: "密码"%>
+                        </div>
+                        <%= f.submit "登录", class: "btn mybtn-primary" %>
+                    <% end %>
+           </div>
+         </div>
+       </div>
+                    
+</body>
+</html>

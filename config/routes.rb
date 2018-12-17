@@ -3,7 +3,7 @@ Stock::Application.routes.draw do
   root 'welcome#home'
   get '/predict/:code',to: 'mystocks#prediction'
   get '/price/:code',to: 'mystocks#price'
-  get '/login',to: 'welcome#home'
+  get '/login',to: 'welcome#login'
   get '/default',to: 'welcome#default'
   get '/mainpage',to: 'welcome#mainpage'
   get '/signup',to: 'welcome#signup'
