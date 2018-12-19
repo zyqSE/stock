@@ -18,3 +18,4 @@
 /app/controllers/temp/code.txt
 /app/controllers/temp/data/history/*
 /app/controllers/temp/data/future/*
+/app/controllers/temp/data/evaluate/*

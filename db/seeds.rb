@@ -22,7 +22,7 @@ User.create!(name:  "stock",
 end
 
 require 'csv'
-file='/root/Stock/stock/db/allstock.csv'
+file='db/stocks.csv'
 CSV.parse(File.read(file)).each do |stock|
   stock=stock.join(",")
   array=[]
