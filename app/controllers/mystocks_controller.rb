@@ -35,7 +35,7 @@ def price
   code.close
   #start_t=180.days.ago.strftime('%Y-%m-%d')
   #end_t=Time.now.strftime('%Y-%m-%d')
-  data_file = "app/controllers/temp/data/history_" + stock_code + ".json"
+  data_file = "app/controllers/temp/data/history/history_" + stock_code + ".json"
   if File.exists?(data_file) then
     #@history_price = File.read(data_file)
   else
@@ -49,6 +49,9 @@ def price
   #future获取预测价格
 end
 
+def evaluate
+  #data_file=
+end
 def create
   @mystock = Mystock.new(mystock_params)
   @mystock.save

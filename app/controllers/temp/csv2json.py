@@ -10,7 +10,7 @@ code_file.close()
 code=''.join(code)
 code=code.zfill(6)
 
-input_file = 'app/controllers/temp/data/history_' + code + '.csv'
+input_file = 'app/controllers/temp/data/history/history_' + code + '.csv'
 lines = io.open(input_file, "r", encoding="utf_8_sig").readlines()
 
 lines = [line.strip() for line in lines]
