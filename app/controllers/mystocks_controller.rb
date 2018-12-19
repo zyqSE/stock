@@ -49,7 +49,7 @@ def price
   #future获取预测价格
 end
 
-def evaluate
+def evaluation
   cashflow_file="app/controllers/temp/data/evaluate/cashflow_data.json"
   debtpaying_file="app/controllers/temp/data/evaluate/cashflow_data.json"
   growth_file="app/controllers/temp/data/evaluate/growth_data.json"

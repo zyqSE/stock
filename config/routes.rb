@@ -2,23 +2,22 @@ Stock::Application.routes.draw do
  
   root 'welcome#home'
 
-  get '/predict/:code', to: 'mystocks#prediction'
-  get '/price/:code',   to: 'mystocks#price'
+  get '/predict/:code',    to: 'mystocks#prediction'
+  get '/price/:code',      to: 'mystocks#price'
   get '/evaluation/:code', to: 'mystocks#evaluation'
-  get '/evaluate/:code',to: 'mystocks#evaluate'
 
-  get '/login',         to: 'welcome#login'
-  get '/default',       to: 'welcome#default'
-  get '/mainpage',      to: 'welcome#mainpage'
-  get '/signup',        to: 'welcome#signup'
-  get '/demopredict',   to: 'welcome#demoprediction'
-  get '/demoevaluate',  to: 'welcome#demoevaluate'
+  get '/login',            to: 'welcome#login'
+  get '/default',          to: 'welcome#default'
+  get '/mainpage',         to: 'welcome#mainpage'
+  get '/signup',           to: 'welcome#signup'
+  get '/demopredict',      to: 'welcome#demoprediction'
+  get '/demoevaluate',     to: 'welcome#demoevaluate'
 
-  post '/newuser',      to: 'users#create'
-  post '/search',       to: 'mystocks#search'
-  post '/login',        to: 'sessions#create'
+  post '/newuser',         to: 'users#create'
+  post '/search',          to: 'mystocks#search'
+  post '/login',           to: 'sessions#create'
   
-  delete '/logout',     to: 'sessions#destroy'
+  delete '/logout',        to: 'sessions#destroy'
   
   resources :users
   resources :mystocks

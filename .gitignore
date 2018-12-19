@@ -15,5 +15,6 @@
 /log/*.log
 /tmp
 .DS_Store
+/app/controllers/temp/code.txt
 /app/controllers/temp/data/history/*
 /app/controllers/temp/data/future/*
