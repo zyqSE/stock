@@ -253,7 +253,7 @@
             },
             xAxis: {
                 type: 'category',
-                data: data0.categoryData,
+                data: [],
                 scale: true,
                 boundaryGap : false,
                 axisLine: {onZero: false},
@@ -286,7 +286,7 @@
                 {
                     name: '日K',
                     type: 'candlestick',
-                    data: data0.values,
+                    data: [],
                     itemStyle: {
                         normal: {
                             color: upColor,
@@ -376,7 +376,7 @@
                 {
                     name: 'MA5',
                     type: 'line',
-                    data: calculateMA(5),
+                    data: [],
                     smooth: true,
                     lineStyle: {
                         normal: {opacity: 0.5}
@@ -385,7 +385,7 @@
                 {
                     name: 'MA10',
                     type: 'line',
-                    data: calculateMA(10),
+                    data: [],
                     smooth: true,
                     lineStyle: {
                         normal: {opacity: 0.5}
@@ -394,7 +394,7 @@
                 {
                     name: 'MA20',
                     type: 'line',
-                    data: calculateMA(20),
+                    data: [],
                     smooth: true,
                     lineStyle: {
                         normal: {opacity: 0.5}
