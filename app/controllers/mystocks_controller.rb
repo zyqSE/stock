@@ -50,8 +50,26 @@ def price
 end
 
 def evaluate
-  #data_file=
+  cashflow_file="app/controllers/temp/data/evaluate/cashflow_data.json"
+  debtpaying_file="app/controllers/temp/data/evaluate/cashflow_data.json"
+  growth_file="app/controllers/temp/data/evaluate/growth_data.json"
+  operation_file="app/controllers/temp/data/evaluate/operation_data.json"
+  profit_file="app/controllers/temp/data/evaluate/profit_data.json"
+  @cashflow = File.read(cashflow_file)
+  @debtpaying = File.read(debtpaying_file)
+  @growth = File.read(growth_file) 
+  @operation = File.read(operation_file)
+  @profit = File.read(profit_file)
+  
+  respond_to do |format|
+  format.json  { render :json => {:cashflow => @cashflow, 
+                                  :debtpaying => @debtpaying,
+                                  :growth => @growth,
+                                  :operation => @operation,
+                                  :profit => @profit }}
+  end
 end
+
 def create
   @mystock = Mystock.new(mystock_params)
   @mystock.save

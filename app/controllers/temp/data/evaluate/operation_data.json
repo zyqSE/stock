@@ -8966,17 +8966,6 @@
     }, 
     {
         "": "816", 
-        "code": "603298", 
-        "inventory_days": "48.6636", 
-        "name": "杭叉集团", 
-        "currentasset_turnover": "1.5776", 
-        "currentasset_days": "171.146", 
-        "arturndays": "23.4821", 
-        "arturnover": "11.4981", 
-        "inventory_turnover": "5.5483"
-    }, 
-    {
-        "": "817", 
         "code": "002404", 
         "inventory_days": "48.6636", 
         "name": "嘉欣丝绸", 
@@ -8984,6 +8973,17 @@
         "currentasset_days": "223.8064", 
         "arturndays": "38.5137", 
         "arturnover": "7.0105", 
+        "inventory_turnover": "5.5483"
+    }, 
+    {
+        "": "817", 
+        "code": "603298", 
+        "inventory_days": "48.6636", 
+        "name": "杭叉集团", 
+        "currentasset_turnover": "1.5776", 
+        "currentasset_days": "171.146", 
+        "arturndays": "23.4821", 
+        "arturnover": "11.4981", 
         "inventory_turnover": "5.5483"
     }, 
     {
@@ -11012,17 +11012,6 @@
     }, 
     {
         "": "1002", 
-        "code": "002589", 
-        "inventory_days": "59.3537", 
-        "name": "瑞康医药", 
-        "currentasset_turnover": "1.0045", 
-        "currentasset_days": "268.7904", 
-        "arturndays": "160.8867", 
-        "arturnover": "1.6782", 
-        "inventory_turnover": "4.5489999999999995"
-    }, 
-    {
-        "": "1003", 
         "code": "603696", 
         "inventory_days": "59.3537", 
         "name": "安记食品", 
@@ -11030,6 +11019,17 @@
         "currentasset_days": "616.1569999999999", 
         "arturndays": "", 
         "arturnover": "", 
+        "inventory_turnover": "4.5489999999999995"
+    }, 
+    {
+        "": "1003", 
+        "code": "002589", 
+        "inventory_days": "59.3537", 
+        "name": "瑞康医药", 
+        "currentasset_turnover": "1.0045", 
+        "currentasset_days": "268.7904", 
+        "arturndays": "160.8867", 
+        "arturnover": "1.6782", 
         "inventory_turnover": "4.5489999999999995"
     }, 
     {
@@ -18118,17 +18118,6 @@
     }, 
     {
         "": "1648", 
-        "code": "002219", 
-        "inventory_days": "97.1573", 
-        "name": "恒康医疗", 
-        "currentasset_turnover": "0.8740000000000001", 
-        "currentasset_days": "308.9245", 
-        "arturndays": "160.4755", 
-        "arturnover": "1.6825", 
-        "inventory_turnover": "2.779"
-    }, 
-    {
-        "": "1649", 
         "code": "600735", 
         "inventory_days": "97.1573", 
         "name": "新华锦", 
@@ -18136,6 +18125,17 @@
         "currentasset_days": "231.1248", 
         "arturndays": "35.582", 
         "arturnover": "7.5881", 
+        "inventory_turnover": "2.779"
+    }, 
+    {
+        "": "1649", 
+        "code": "002219", 
+        "inventory_days": "97.1573", 
+        "name": "恒康医疗", 
+        "currentasset_turnover": "0.8740000000000001", 
+        "currentasset_days": "308.9245", 
+        "arturndays": "160.4755", 
+        "arturnover": "1.6825", 
         "inventory_turnover": "2.779"
     }, 
     {
@@ -18426,17 +18426,6 @@
     }, 
     {
         "": "1676", 
-        "code": "603603", 
-        "inventory_days": "98.6049", 
-        "name": "博天环境", 
-        "currentasset_turnover": "0.6966", 
-        "currentasset_days": "387.5969", 
-        "arturndays": "165.4006", 
-        "arturnover": "1.6324", 
-        "inventory_turnover": "2.7382"
-    }, 
-    {
-        "": "1677", 
         "code": "000066", 
         "inventory_days": "98.6049", 
         "name": "中国长城", 
@@ -18444,6 +18433,17 @@
         "currentasset_days": "341.2107", 
         "arturndays": "103.5713", 
         "arturnover": "2.6069", 
+        "inventory_turnover": "2.7382"
+    }, 
+    {
+        "": "1677", 
+        "code": "603603", 
+        "inventory_days": "98.6049", 
+        "name": "博天环境", 
+        "currentasset_turnover": "0.6966", 
+        "currentasset_days": "387.5969", 
+        "arturndays": "165.4006", 
+        "arturnover": "1.6324", 
         "inventory_turnover": "2.7382"
     }, 
     {
@@ -18723,17 +18723,6 @@
     }, 
     {
         "": "1703", 
-        "code": "002767", 
-        "inventory_days": "100.3531", 
-        "name": "先锋电子", 
-        "currentasset_turnover": "0.29100000000000004", 
-        "currentasset_days": "927.8351", 
-        "arturndays": "288.6466", 
-        "arturnover": "0.9354", 
-        "inventory_turnover": "2.6905"
-    }, 
-    {
-        "": "1704", 
         "code": "002795", 
         "inventory_days": "100.3531", 
         "name": "永和智控", 
@@ -18741,6 +18730,17 @@
         "currentasset_days": "306.2613", 
         "arturndays": "77.1561", 
         "arturnover": "3.4994", 
+        "inventory_turnover": "2.6905"
+    }, 
+    {
+        "": "1704", 
+        "code": "002767", 
+        "inventory_days": "100.3531", 
+        "name": "先锋电子", 
+        "currentasset_turnover": "0.29100000000000004", 
+        "currentasset_days": "927.8351", 
+        "arturndays": "288.6466", 
+        "arturnover": "0.9354", 
         "inventory_turnover": "2.6905"
     }, 
     {
@@ -19757,17 +19757,6 @@
     }, 
     {
         "": "1797", 
-        "code": "603880", 
-        "inventory_days": "107.5354", 
-        "name": "南卫股份", 
-        "currentasset_turnover": "0.5775", 
-        "currentasset_days": "467.5325", 
-        "arturndays": "100.9006", 
-        "arturnover": "2.6759", 
-        "inventory_turnover": "2.5108"
-    }, 
-    {
-        "": "1798", 
         "code": "000004", 
         "inventory_days": "107.5354", 
         "name": "国农科技", 
@@ -19775,6 +19764,17 @@
         "currentasset_days": "184.46400000000003", 
         "arturndays": "24.0436", 
         "arturnover": "11.2296", 
+        "inventory_turnover": "2.5108"
+    }, 
+    {
+        "": "1798", 
+        "code": "603880", 
+        "inventory_days": "107.5354", 
+        "name": "南卫股份", 
+        "currentasset_turnover": "0.5775", 
+        "currentasset_days": "467.5325", 
+        "arturndays": "100.9006", 
+        "arturnover": "2.6759", 
         "inventory_turnover": "2.5108"
     }, 
     {
@@ -19922,17 +19922,6 @@
     }, 
     {
         "": "1812", 
-        "code": "002363", 
-        "inventory_days": "108.5733", 
-        "name": "隆基机械", 
-        "currentasset_turnover": "0.7028", 
-        "currentasset_days": "384.1776", 
-        "arturndays": "80.2998", 
-        "arturnover": "3.3624", 
-        "inventory_turnover": "2.4868"
-    }, 
-    {
-        "": "1813", 
         "code": "300563", 
         "inventory_days": "108.5733", 
         "name": "神宇股份", 
@@ -19940,6 +19929,17 @@
         "currentasset_days": "329.3085", 
         "arturndays": "147.7833", 
         "arturnover": "1.827", 
+        "inventory_turnover": "2.4868"
+    }, 
+    {
+        "": "1813", 
+        "code": "002363", 
+        "inventory_days": "108.5733", 
+        "name": "隆基机械", 
+        "currentasset_turnover": "0.7028", 
+        "currentasset_days": "384.1776", 
+        "arturndays": "80.2998", 
+        "arturnover": "3.3624", 
         "inventory_turnover": "2.4868"
     }, 
     {
@@ -20241,17 +20241,6 @@
     }, 
     {
         "": "1841", 
-        "code": "603319", 
-        "inventory_days": "110.7329", 
-        "name": "湘油泵", 
-        "currentasset_turnover": "1.0170000000000001", 
-        "currentasset_days": "265.4867", 
-        "arturndays": "108.2121", 
-        "arturnover": "2.4951", 
-        "inventory_turnover": "2.4383"
-    }, 
-    {
-        "": "1842", 
         "code": "300236", 
         "inventory_days": "110.7329", 
         "name": "上海新阳", 
@@ -20259,6 +20248,17 @@
         "currentasset_days": "600.5338", 
         "arturndays": "193.479", 
         "arturnover": "1.3955", 
+        "inventory_turnover": "2.4383"
+    }, 
+    {
+        "": "1842", 
+        "code": "603319", 
+        "inventory_days": "110.7329", 
+        "name": "湘油泵", 
+        "currentasset_turnover": "1.0170000000000001", 
+        "currentasset_days": "265.4867", 
+        "arturndays": "108.2121", 
+        "arturnover": "2.4951", 
         "inventory_turnover": "2.4383"
     }, 
     {
@@ -21451,17 +21451,6 @@
     }, 
     {
         "": "1951", 
-        "code": "600750", 
-        "inventory_days": "118.9689", 
-        "name": "江中药业", 
-        "currentasset_turnover": "0.6308", 
-        "currentasset_days": "428.0279", 
-        "arturndays": "2.8381", 
-        "arturnover": "95.1337", 
-        "inventory_turnover": "2.2695"
-    }, 
-    {
-        "": "1952", 
         "code": "002303", 
         "inventory_days": "118.9689", 
         "name": "美盈森", 
@@ -21469,6 +21458,17 @@
         "currentasset_days": "438.95300000000003", 
         "arturndays": "103.9261", 
         "arturnover": "2.5980000000000003", 
+        "inventory_turnover": "2.2695"
+    }, 
+    {
+        "": "1952", 
+        "code": "600750", 
+        "inventory_days": "118.9689", 
+        "name": "江中药业", 
+        "currentasset_turnover": "0.6308", 
+        "currentasset_days": "428.0279", 
+        "arturndays": "2.8381", 
+        "arturnover": "95.1337", 
         "inventory_turnover": "2.2695"
     }, 
     {
@@ -22265,13 +22265,13 @@
     }, 
     {
         "": "2025", 
-        "code": "002546", 
+        "code": "002318", 
         "inventory_days": "125.792", 
-        "name": "新联电子", 
-        "currentasset_turnover": "0.1632", 
-        "currentasset_days": "1654.4118", 
-        "arturndays": "200.0741", 
-        "arturnover": "1.3495", 
+        "name": "久立特材", 
+        "currentasset_turnover": "0.9812", 
+        "currentasset_days": "275.1733", 
+        "arturndays": "51.8413", 
+        "arturnover": "5.2082", 
         "inventory_turnover": "2.1464"
     }, 
     {
@@ -22287,13 +22287,13 @@
     }, 
     {
         "": "2027", 
-        "code": "002318", 
+        "code": "002546", 
         "inventory_days": "125.792", 
-        "name": "久立特材", 
-        "currentasset_turnover": "0.9812", 
-        "currentasset_days": "275.1733", 
-        "arturndays": "51.8413", 
-        "arturnover": "5.2082", 
+        "name": "新联电子", 
+        "currentasset_turnover": "0.1632", 
+        "currentasset_days": "1654.4118", 
+        "arturndays": "200.0741", 
+        "arturnover": "1.3495", 
         "inventory_turnover": "2.1464"
     }, 
     {
@@ -22760,17 +22760,6 @@
     }, 
     {
         "": "2070", 
-        "code": "300232", 
-        "inventory_days": "130.4348", 
-        "name": "洲明科技", 
-        "currentasset_turnover": "0.9564", 
-        "currentasset_days": "282.3087", 
-        "arturndays": "108.3859", 
-        "arturnover": "2.4911", 
-        "inventory_turnover": "2.07"
-    }, 
-    {
-        "": "2071", 
         "code": "300059", 
         "inventory_days": "130.4348", 
         "name": "东方财富", 
@@ -22778,6 +22767,17 @@
         "currentasset_days": "9310.3448", 
         "arturndays": "90.8601", 
         "arturnover": "2.9716", 
+        "inventory_turnover": "2.07"
+    }, 
+    {
+        "": "2071", 
+        "code": "300232", 
+        "inventory_days": "130.4348", 
+        "name": "洲明科技", 
+        "currentasset_turnover": "0.9564", 
+        "currentasset_days": "282.3087", 
+        "arturndays": "108.3859", 
+        "arturnover": "2.4911", 
         "inventory_turnover": "2.07"
     }, 
     {
@@ -22826,17 +22826,6 @@
     }, 
     {
         "": "2076", 
-        "code": "002765", 
-        "inventory_days": "130.9662", 
-        "name": "蓝黛传动", 
-        "currentasset_turnover": "0.5896", 
-        "currentasset_days": "457.9376", 
-        "arturndays": "140.5298", 
-        "arturnover": "1.9213", 
-        "inventory_turnover": "2.0616"
-    }, 
-    {
-        "": "2077", 
         "code": "300694", 
         "inventory_days": "130.9662", 
         "name": "蠡湖股份", 
@@ -22844,6 +22833,17 @@
         "currentasset_days": "266.5877", 
         "arturndays": "", 
         "arturnover": "", 
+        "inventory_turnover": "2.0616"
+    }, 
+    {
+        "": "2077", 
+        "code": "002765", 
+        "inventory_days": "130.9662", 
+        "name": "蓝黛传动", 
+        "currentasset_turnover": "0.5896", 
+        "currentasset_days": "457.9376", 
+        "arturndays": "140.5298", 
+        "arturnover": "1.9213", 
         "inventory_turnover": "2.0616"
     }, 
     {
@@ -23079,13 +23079,13 @@
     }, 
     {
         "": "2099", 
-        "code": "002008", 
+        "code": "300529", 
         "inventory_days": "132.9525", 
-        "name": "大族激光", 
-        "currentasset_turnover": "0.8128", 
-        "currentasset_days": "332.185", 
-        "arturndays": "138.3835", 
-        "arturnover": "1.9511", 
+        "name": "健帆生物", 
+        "currentasset_turnover": "0.5703", 
+        "currentasset_days": "473.435", 
+        "arturndays": "42.7317", 
+        "arturnover": "6.3185", 
         "inventory_turnover": "2.0308"
     }, 
     {
@@ -23387,17 +23387,6 @@
     }, 
     {
         "": "2127", 
-        "code": "002060", 
-        "inventory_days": "136.0407", 
-        "name": "粤水电", 
-        "currentasset_turnover": "0.6907", 
-        "currentasset_days": "390.9078", 
-        "arturndays": "86.5163", 
-        "arturnover": "3.1208", 
-        "inventory_turnover": "1.9847"
-    }, 
-    {
-        "": "2128", 
         "code": "300414", 
         "inventory_days": "136.0407", 
         "name": "中光防雷", 
@@ -23405,6 +23394,17 @@
         "currentasset_days": "866.2175", 
         "arturndays": "199.8668", 
         "arturnover": "1.3509", 
+        "inventory_turnover": "1.9847"
+    }, 
+    {
+        "": "2128", 
+        "code": "002060", 
+        "inventory_days": "136.0407", 
+        "name": "粤水电", 
+        "currentasset_turnover": "0.6907", 
+        "currentasset_days": "390.9078", 
+        "arturndays": "86.5163", 
+        "arturnover": "3.1208", 
         "inventory_turnover": "1.9847"
     }, 
     {
@@ -23475,17 +23475,6 @@
     }, 
     {
         "": "2135", 
-        "code": "300659", 
-        "inventory_days": "136.6881", 
-        "name": "中孚信息", 
-        "currentasset_turnover": "0.3885", 
-        "currentasset_days": "694.9807", 
-        "arturndays": "183.9488", 
-        "arturnover": "1.4678", 
-        "inventory_turnover": "1.9753"
-    }, 
-    {
-        "": "2136", 
         "code": "300760", 
         "inventory_days": "136.6881", 
         "name": "迈瑞医疗", 
@@ -23493,6 +23482,17 @@
         "currentasset_days": "244.1009", 
         "arturndays": "41.1128", 
         "arturnover": "6.5673", 
+        "inventory_turnover": "1.9753"
+    }, 
+    {
+        "": "2136", 
+        "code": "300659", 
+        "inventory_days": "136.6881", 
+        "name": "中孚信息", 
+        "currentasset_turnover": "0.3885", 
+        "currentasset_days": "694.9807", 
+        "arturndays": "183.9488", 
+        "arturnover": "1.4678", 
         "inventory_turnover": "1.9753"
     }, 
     {
@@ -23519,6 +23519,17 @@
     }, 
     {
         "": "2139", 
+        "code": "300119", 
+        "inventory_days": "137.0489", 
+        "name": "瑞普生物", 
+        "currentasset_turnover": "0.6404", 
+        "currentasset_days": "421.6115", 
+        "arturndays": "118.9061", 
+        "arturnover": "2.2707", 
+        "inventory_turnover": "1.9701"
+    }, 
+    {
+        "": "2140", 
         "code": "002350", 
         "inventory_days": "137.0489", 
         "name": "北京科锐", 
@@ -23529,7 +23540,7 @@
         "inventory_turnover": "1.9701"
     }, 
     {
-        "": "2140", 
+        "": "2141", 
         "code": "000933", 
         "inventory_days": "137.0489", 
         "name": "神火股份", 
@@ -23537,17 +23548,6 @@
         "currentasset_days": "334.1171", 
         "arturndays": "4.7352", 
         "arturnover": "57.0203", 
-        "inventory_turnover": "1.9701"
-    }, 
-    {
-        "": "2141", 
-        "code": "300119", 
-        "inventory_days": "137.0489", 
-        "name": "瑞普生物", 
-        "currentasset_turnover": "0.6404", 
-        "currentasset_days": "421.6115", 
-        "arturndays": "118.9061", 
-        "arturnover": "2.2707", 
         "inventory_turnover": "1.9701"
     }, 
     {
@@ -23992,17 +23992,6 @@
     }, 
     {
         "": "2182", 
-        "code": "600420", 
-        "inventory_days": "141.4946", 
-        "name": "现代制药", 
-        "currentasset_turnover": "1.1245", 
-        "currentasset_days": "240.1067", 
-        "arturndays": "44.6909", 
-        "arturnover": "6.0415", 
-        "inventory_turnover": "1.9082"
-    }, 
-    {
-        "": "2183", 
         "code": "002460", 
         "inventory_days": "141.4946", 
         "name": "赣锋锂业", 
@@ -24010,6 +23999,17 @@
         "currentasset_days": "329.912", 
         "arturndays": "47.7352", 
         "arturnover": "5.6562", 
+        "inventory_turnover": "1.9082"
+    }, 
+    {
+        "": "2183", 
+        "code": "600420", 
+        "inventory_days": "141.4946", 
+        "name": "现代制药", 
+        "currentasset_turnover": "1.1245", 
+        "currentasset_days": "240.1067", 
+        "arturndays": "44.6909", 
+        "arturnover": "6.0415", 
         "inventory_turnover": "1.9082"
     }, 
     {
@@ -24432,17 +24432,6 @@
     }, 
     {
         "": "2222", 
-        "code": "000790", 
-        "inventory_days": "145.2706", 
-        "name": "泰合健康", 
-        "currentasset_turnover": "0.4897", 
-        "currentasset_days": "551.3580000000001", 
-        "arturndays": "188.0092", 
-        "arturnover": "1.4361", 
-        "inventory_turnover": "1.8586"
-    }, 
-    {
-        "": "2223", 
         "code": "002334", 
         "inventory_days": "145.2706", 
         "name": "英威腾", 
@@ -24450,6 +24439,17 @@
         "currentasset_days": "382.8158", 
         "arturndays": "150.4933", 
         "arturnover": "1.7941", 
+        "inventory_turnover": "1.8586"
+    }, 
+    {
+        "": "2223", 
+        "code": "000790", 
+        "inventory_days": "145.2706", 
+        "name": "泰合健康", 
+        "currentasset_turnover": "0.4897", 
+        "currentasset_days": "551.3580000000001", 
+        "arturndays": "188.0092", 
+        "arturnover": "1.4361", 
         "inventory_turnover": "1.8586"
     }, 
     {
@@ -25037,17 +25037,6 @@
     }, 
     {
         "": "2277", 
-        "code": "603126", 
-        "inventory_days": "151.4132", 
-        "name": "中材节能", 
-        "currentasset_turnover": "0.6088", 
-        "currentasset_days": "443.4954", 
-        "arturndays": "119.6915", 
-        "arturnover": "2.2558", 
-        "inventory_turnover": "1.7832"
-    }, 
-    {
-        "": "2278", 
         "code": "000976", 
         "inventory_days": "151.4132", 
         "name": "华铁股份", 
@@ -25055,6 +25044,17 @@
         "currentasset_days": "569.02", 
         "arturndays": "245.1203", 
         "arturnover": "1.1015", 
+        "inventory_turnover": "1.7832"
+    }, 
+    {
+        "": "2278", 
+        "code": "603126", 
+        "inventory_days": "151.4132", 
+        "name": "中材节能", 
+        "currentasset_turnover": "0.6088", 
+        "currentasset_days": "443.4954", 
+        "arturndays": "119.6915", 
+        "arturnover": "2.2558", 
         "inventory_turnover": "1.7832"
     }, 
     {
@@ -25521,17 +25521,6 @@
     }, 
     {
         "": "2321", 
-        "code": "300132", 
-        "inventory_days": "156.2862", 
-        "name": "青松股份", 
-        "currentasset_turnover": "1.28", 
-        "currentasset_days": "210.9375", 
-        "arturndays": "29.7704", 
-        "arturnover": "9.0694", 
-        "inventory_turnover": "1.7276"
-    }, 
-    {
-        "": "2322", 
         "code": "600129", 
         "inventory_days": "156.2862", 
         "name": "太极集团", 
@@ -25539,6 +25528,17 @@
         "currentasset_days": "222.332", 
         "arturndays": "48.8555", 
         "arturnover": "5.5265", 
+        "inventory_turnover": "1.7276"
+    }, 
+    {
+        "": "2322", 
+        "code": "300132", 
+        "inventory_days": "156.2862", 
+        "name": "青松股份", 
+        "currentasset_turnover": "1.28", 
+        "currentasset_days": "210.9375", 
+        "arturndays": "29.7704", 
+        "arturnover": "9.0694", 
         "inventory_turnover": "1.7276"
     }, 
     {
@@ -26555,17 +26555,6 @@
     }, 
     {
         "": "2415", 
-        "code": "002272", 
-        "inventory_days": "169.8541", 
-        "name": "川润股份", 
-        "currentasset_turnover": "0.3259", 
-        "currentasset_days": "828.475", 
-        "arturndays": "285.2314", 
-        "arturnover": "0.9466", 
-        "inventory_turnover": "1.5896"
-    }, 
-    {
-        "": "2416", 
         "code": "600776", 
         "inventory_days": "169.8541", 
         "name": "东方通信", 
@@ -26573,6 +26562,17 @@
         "currentasset_days": "478.2147", 
         "arturndays": "142.3225", 
         "arturnover": "1.8971", 
+        "inventory_turnover": "1.5896"
+    }, 
+    {
+        "": "2416", 
+        "code": "002272", 
+        "inventory_days": "169.8541", 
+        "name": "川润股份", 
+        "currentasset_turnover": "0.3259", 
+        "currentasset_days": "828.475", 
+        "arturndays": "285.2314", 
+        "arturnover": "0.9466", 
         "inventory_turnover": "1.5896"
     }, 
     {
@@ -31989,17 +31989,6 @@
     }, 
     {
         "": "2909", 
-        "code": "300275", 
-        "inventory_days": "299.2685", 
-        "name": "梅安森", 
-        "currentasset_turnover": "0.2614", 
-        "currentasset_days": "1032.8998", 
-        "arturndays": "469.7286", 
-        "arturnover": "0.5748", 
-        "inventory_turnover": "0.9022"
-    }, 
-    {
-        "": "2910", 
         "code": "603196", 
         "inventory_days": "299.2685", 
         "name": "日播时尚", 
@@ -32007,6 +31996,17 @@
         "currentasset_days": "279.9959", 
         "arturndays": "29.8732", 
         "arturnover": "9.0382", 
+        "inventory_turnover": "0.9022"
+    }, 
+    {
+        "": "2910", 
+        "code": "300275", 
+        "inventory_days": "299.2685", 
+        "name": "梅安森", 
+        "currentasset_turnover": "0.2614", 
+        "currentasset_days": "1032.8998", 
+        "arturndays": "469.7286", 
+        "arturnover": "0.5748", 
         "inventory_turnover": "0.9022"
     }, 
     {
@@ -32264,17 +32264,6 @@
     }, 
     {
         "": "2934", 
-        "code": "600371", 
-        "inventory_days": "307.5171", 
-        "name": "万向德农", 
-        "currentasset_turnover": "0.3403", 
-        "currentasset_days": "793.4176", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": "0.878"
-    }, 
-    {
-        "": "2935", 
         "code": "002887", 
         "inventory_days": "307.5171", 
         "name": "绿茵生态", 
@@ -32282,6 +32271,17 @@
         "currentasset_days": "1358.8324", 
         "arturndays": "478.13", 
         "arturnover": "0.5647", 
+        "inventory_turnover": "0.878"
+    }, 
+    {
+        "": "2935", 
+        "code": "600371", 
+        "inventory_days": "307.5171", 
+        "name": "万向德农", 
+        "currentasset_turnover": "0.3403", 
+        "currentasset_days": "793.4176", 
+        "arturndays": "", 
+        "arturnover": "", 
         "inventory_turnover": "0.878"
     }, 
     {
@@ -32330,17 +32330,6 @@
     }, 
     {
         "": "2940", 
-        "code": "002875", 
-        "inventory_days": "308.1488", 
-        "name": "安奈儿", 
-        "currentasset_turnover": "0.8495", 
-        "currentasset_days": "317.834", 
-        "arturndays": "20.7327", 
-        "arturnover": "13.0229", 
-        "inventory_turnover": "0.8762"
-    }, 
-    {
-        "": "2941", 
         "code": "600721", 
         "inventory_days": "308.1488", 
         "name": "百花村", 
@@ -32348,6 +32337,17 @@
         "currentasset_days": "417.1173", 
         "arturndays": "111.0974", 
         "arturnover": "2.4303", 
+        "inventory_turnover": "0.8762"
+    }, 
+    {
+        "": "2941", 
+        "code": "002875", 
+        "inventory_days": "308.1488", 
+        "name": "安奈儿", 
+        "currentasset_turnover": "0.8495", 
+        "currentasset_days": "317.834", 
+        "arturndays": "20.7327", 
+        "arturnover": "13.0229", 
         "inventory_turnover": "0.8762"
     }, 
     {
@@ -33122,13 +33122,13 @@
     }, 
     {
         "": "3012", 
-        "code": "600854", 
+        "code": "600467", 
         "inventory_days": "347.2222", 
-        "name": "春兰股份", 
-        "currentasset_turnover": "0.4821", 
-        "currentasset_days": "560.0498", 
-        "arturndays": "13.5051", 
-        "arturnover": "19.9924", 
+        "name": "好当家", 
+        "currentasset_turnover": "0.5038", 
+        "currentasset_days": "535.927", 
+        "arturndays": "16.6136", 
+        "arturnover": "16.2517", 
         "inventory_turnover": "0.7776"
     }, 
     {
@@ -33144,13 +33144,13 @@
     }, 
     {
         "": "3014", 
-        "code": "600467", 
+        "code": "600854", 
         "inventory_days": "347.2222", 
-        "name": "好当家", 
-        "currentasset_turnover": "0.5038", 
-        "currentasset_days": "535.927", 
-        "arturndays": "16.6136", 
-        "arturnover": "16.2517", 
+        "name": "春兰股份", 
+        "currentasset_turnover": "0.4821", 
+        "currentasset_days": "560.0498", 
+        "arturndays": "13.5051", 
+        "arturnover": "19.9924", 
         "inventory_turnover": "0.7776"
     }, 
     {
@@ -33408,17 +33408,6 @@
     }, 
     {
         "": "3038", 
-        "code": "300601", 
-        "inventory_days": "369.6099", 
-        "name": "康泰生物", 
-        "currentasset_turnover": "1.1086", 
-        "currentasset_days": "243.5504", 
-        "arturndays": "134.1615", 
-        "arturnover": "2.0125", 
-        "inventory_turnover": "0.7305"
-    }, 
-    {
-        "": "3039", 
         "code": "600666", 
         "inventory_days": "369.6099", 
         "name": "奥瑞德", 
@@ -33426,6 +33415,17 @@
         "currentasset_days": "829.4931", 
         "arturndays": "415.7684", 
         "arturnover": "0.6494", 
+        "inventory_turnover": "0.7305"
+    }, 
+    {
+        "": "3039", 
+        "code": "300601", 
+        "inventory_days": "369.6099", 
+        "name": "康泰生物", 
+        "currentasset_turnover": "1.1086", 
+        "currentasset_days": "243.5504", 
+        "arturndays": "134.1615", 
+        "arturnover": "2.0125", 
         "inventory_turnover": "0.7305"
     }, 
     {
@@ -35729,17 +35729,6 @@
     }, 
     {
         "": "3249", 
-        "code": "002291", 
-        "inventory_days": "720.3842", 
-        "name": "星期六", 
-        "currentasset_turnover": "0.4589", 
-        "currentasset_days": "588.3635", 
-        "arturndays": "174.2498", 
-        "arturnover": "1.5495", 
-        "inventory_turnover": "0.3748"
-    }, 
-    {
-        "": "3250", 
         "code": "002933", 
         "inventory_days": "720.3842", 
         "name": "新兴装备", 
@@ -35747,6 +35736,17 @@
         "currentasset_days": "1187.8575", 
         "arturndays": "355.3099", 
         "arturnover": "0.7599", 
+        "inventory_turnover": "0.3748"
+    }, 
+    {
+        "": "3250", 
+        "code": "002291", 
+        "inventory_days": "720.3842", 
+        "name": "星期六", 
+        "currentasset_turnover": "0.4589", 
+        "currentasset_days": "588.3635", 
+        "arturndays": "174.2498", 
+        "arturnover": "1.5495", 
         "inventory_turnover": "0.3748"
     }, 
     {
@@ -36895,17 +36895,6 @@
     }, 
     {
         "": "3355", 
-        "code": "000006", 
-        "inventory_days": "1908.1272", 
-        "name": "深振业A", 
-        "currentasset_turnover": "0.1576", 
-        "currentasset_days": "1713.1979999999999", 
-        "arturndays": "1.5441", 
-        "arturnover": "174.8617", 
-        "inventory_turnover": "0.1415"
-    }, 
-    {
-        "": "3356", 
         "code": "600638", 
         "inventory_days": "1908.1272", 
         "name": "新黄浦", 
@@ -36913,6 +36902,17 @@
         "currentasset_days": "2323.58", 
         "arturndays": "17.95", 
         "arturnover": "15.0418", 
+        "inventory_turnover": "0.1415"
+    }, 
+    {
+        "": "3356", 
+        "code": "000006", 
+        "inventory_days": "1908.1272", 
+        "name": "深振业A", 
+        "currentasset_turnover": "0.1576", 
+        "currentasset_days": "1713.1979999999999", 
+        "arturndays": "1.5441", 
+        "arturnover": "174.8617", 
         "inventory_turnover": "0.1415"
     }, 
     {
@@ -37368,17 +37368,6 @@
     }, 
     {
         "": "3398", 
-        "code": "000838", 
-        "inventory_days": "3256.9361", 
-        "name": "财信发展", 
-        "currentasset_turnover": "0.0912", 
-        "currentasset_days": "2960.5263", 
-        "arturndays": "30.2922", 
-        "arturnover": "8.9132", 
-        "inventory_turnover": "0.0829"
-    }, 
-    {
-        "": "3399", 
         "code": "002118", 
         "inventory_days": "3256.9361", 
         "name": "紫鑫药业", 
@@ -37386,6 +37375,17 @@
         "currentasset_days": "1456.3107", 
         "arturndays": "193.3959", 
         "arturnover": "1.3961", 
+        "inventory_turnover": "0.0829"
+    }, 
+    {
+        "": "3399", 
+        "code": "000838", 
+        "inventory_days": "3256.9361", 
+        "name": "财信发展", 
+        "currentasset_turnover": "0.0912", 
+        "currentasset_days": "2960.5263", 
+        "arturndays": "30.2922", 
+        "arturnover": "8.9132", 
         "inventory_turnover": "0.0829"
     }, 
     {
@@ -37819,1128 +37819,6 @@
     }, 
     {
         "": "3439", 
-        "code": "600696", 
-        "inventory_days": "", 
-        "name": "ST岩石", 
-        "currentasset_turnover": "0.7231", 
-        "currentasset_days": "373.3923", 
-        "arturndays": "0.0499", 
-        "arturnover": "5415.8495", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3440", 
-        "code": "300492", 
-        "inventory_days": "", 
-        "name": "山鼎设计", 
-        "currentasset_turnover": "0.4718", 
-        "currentasset_days": "572.2764", 
-        "arturndays": "286.6546", 
-        "arturnover": "0.9419", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3441", 
-        "code": "601788", 
-        "inventory_days": "", 
-        "name": "光大证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3442", 
-        "code": "601818", 
-        "inventory_days": "", 
-        "name": "光大银行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3443", 
-        "code": "600318", 
-        "inventory_days": "", 
-        "name": "新力金融", 
-        "currentasset_turnover": "0.3859", 
-        "currentasset_days": "699.6631", 
-        "arturndays": "2.2965", 
-        "arturnover": "117.5722", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3444", 
-        "code": "300533", 
-        "inventory_days": "", 
-        "name": "冰川网络", 
-        "currentasset_turnover": "0.1192", 
-        "currentasset_days": "2265.1007", 
-        "arturndays": "16.0", 
-        "arturnover": "16.875", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3445", 
-        "code": "000676", 
-        "inventory_days": "", 
-        "name": "智度股份", 
-        "currentasset_turnover": "1.3074", 
-        "currentasset_days": "206.5168", 
-        "arturndays": "77.24", 
-        "arturnover": "3.4956", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3446", 
-        "code": "600385", 
-        "inventory_days": "", 
-        "name": "山东金泰", 
-        "currentasset_turnover": "0.0273", 
-        "currentasset_days": "9890.1099", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3447", 
-        "code": "300242", 
-        "inventory_days": "", 
-        "name": "佳云科技", 
-        "currentasset_turnover": "2.7103", 
-        "currentasset_days": "99.62", 
-        "arturndays": "58.888999999999996", 
-        "arturnover": "4.5849", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3448", 
-        "code": "600015", 
-        "inventory_days": "", 
-        "name": "华夏银行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3449", 
-        "code": "000776", 
-        "inventory_days": "", 
-        "name": "广发证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3450", 
-        "code": "002558", 
-        "inventory_days": "", 
-        "name": "巨人网络", 
-        "currentasset_turnover": "0.2976", 
-        "currentasset_days": "907.2581", 
-        "arturndays": "138.1852", 
-        "arturnover": "1.9539", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3451", 
-        "code": "600901", 
-        "inventory_days": "", 
-        "name": "江苏租赁", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3452", 
-        "code": "600149", 
-        "inventory_days": "", 
-        "name": "ST坊展", 
-        "currentasset_turnover": "0.1647", 
-        "currentasset_days": "1639.3443", 
-        "arturndays": "11.0318", 
-        "arturnover": "24.4746", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3453", 
-        "code": "300392", 
-        "inventory_days": "", 
-        "name": "腾信股份", 
-        "currentasset_turnover": "0.9067", 
-        "currentasset_days": "297.7832", 
-        "arturndays": "195.2701", 
-        "arturnover": "1.3827", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3454", 
-        "code": "300052", 
-        "inventory_days": "", 
-        "name": "中青宝", 
-        "currentasset_turnover": "0.3848", 
-        "currentasset_days": "701.6632", 
-        "arturndays": "139.5998", 
-        "arturnover": "1.9341", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3455", 
-        "code": "601162", 
-        "inventory_days": "", 
-        "name": "天风证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3456", 
-        "code": "601169", 
-        "inventory_days": "", 
-        "name": "北京银行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3457", 
-        "code": "601318", 
-        "inventory_days": "", 
-        "name": "中国平安", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3458", 
-        "code": "601375", 
-        "inventory_days": "", 
-        "name": "中原证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3459", 
-        "code": "601398", 
-        "inventory_days": "", 
-        "name": "工商银行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3460", 
-        "code": "601601", 
-        "inventory_days": "", 
-        "name": "中国太保", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3461", 
-        "code": "600695", 
-        "inventory_days": "", 
-        "name": "绿庭投资", 
-        "currentasset_turnover": "0.1046", 
-        "currentasset_days": "2581.262", 
-        "arturndays": "15.6174", 
-        "arturnover": "17.2884", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3462", 
-        "code": "601628", 
-        "inventory_days": "", 
-        "name": "中国人寿", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3463", 
-        "code": "601688", 
-        "inventory_days": "", 
-        "name": "华泰证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3464", 
-        "code": "601881", 
-        "inventory_days": "", 
-        "name": "中国银河", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3465", 
-        "code": "601901", 
-        "inventory_days": "", 
-        "name": "方正证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3466", 
-        "code": "603729", 
-        "inventory_days": "", 
-        "name": "龙韵股份", 
-        "currentasset_turnover": "1.1067", 
-        "currentasset_days": "243.9686", 
-        "arturndays": "127.7804", 
-        "arturnover": "2.113", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3467", 
-        "code": "601988", 
-        "inventory_days": "", 
-        "name": "中国银行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3468", 
-        "code": "002807", 
-        "inventory_days": "", 
-        "name": "江阴银行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3469", 
-        "code": "002464", 
-        "inventory_days": "", 
-        "name": "众应互联", 
-        "currentasset_turnover": "1.1004", 
-        "currentasset_days": "245.3653", 
-        "arturndays": "81.8157", 
-        "arturnover": "3.3001", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3470", 
-        "code": "600790", 
-        "inventory_days": "", 
-        "name": "轻纺城", 
-        "currentasset_turnover": "0.4338", 
-        "currentasset_days": "622.4066", 
-        "arturndays": "1.0406", 
-        "arturnover": "259.4534", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3471", 
-        "code": "600000", 
-        "inventory_days": "", 
-        "name": "浦发银行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3472", 
-        "code": "000728", 
-        "inventory_days": "", 
-        "name": "国元证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3473", 
-        "code": "600421", 
-        "inventory_days": "", 
-        "name": "ST仰帆", 
-        "currentasset_turnover": "-0.0041", 
-        "currentasset_days": "-65853.6585", 
-        "arturndays": "-35526.3158", 
-        "arturnover": "-0.0076", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3474", 
-        "code": "002500", 
-        "inventory_days": "", 
-        "name": "山西证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3475", 
-        "code": "600834", 
-        "inventory_days": "", 
-        "name": "申通地铁", 
-        "currentasset_turnover": "1.2915", 
-        "currentasset_days": "209.0592", 
-        "arturndays": "2.6303", 
-        "arturnover": "102.6498", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3476", 
-        "code": "300662", 
-        "inventory_days": "", 
-        "name": "科锐国际", 
-        "currentasset_turnover": "1.6344", 
-        "currentasset_days": "165.1982", 
-        "arturndays": "77.1671", 
-        "arturnover": "3.4989", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3477", 
-        "code": "600909", 
-        "inventory_days": "", 
-        "name": "华安证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3478", 
-        "code": "600958", 
-        "inventory_days": "", 
-        "name": "东方证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3479", 
-        "code": "000166", 
-        "inventory_days": "", 
-        "name": "申万宏源", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3480", 
-        "code": "600652", 
-        "inventory_days": "", 
-        "name": "游久游戏", 
-        "currentasset_turnover": "0.1662", 
-        "currentasset_days": "1624.5487", 
-        "arturndays": "240.6846", 
-        "arturnover": "1.1218", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3481", 
-        "code": "601319", 
-        "inventory_days": "", 
-        "name": "中国人保", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3482", 
-        "code": "601377", 
-        "inventory_days": "", 
-        "name": "兴业证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3483", 
-        "code": "603598", 
-        "inventory_days": "", 
-        "name": "引力传媒", 
-        "currentasset_turnover": "1.8896", 
-        "currentasset_days": "142.8874", 
-        "arturndays": "65.9035", 
-        "arturnover": "4.0969", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3484", 
-        "code": "601555", 
-        "inventory_days": "", 
-        "name": "东吴证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3485", 
-        "code": "601577", 
-        "inventory_days": "", 
-        "name": "长沙银行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3486", 
-        "code": "000563", 
-        "inventory_days": "", 
-        "name": "陕国投A", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3487", 
-        "code": "000567", 
-        "inventory_days": "", 
-        "name": "海德股份", 
-        "currentasset_turnover": "0.0514", 
-        "currentasset_days": "5252.9183", 
-        "arturndays": "51.0214", 
-        "arturnover": "5.2919", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3488", 
-        "code": "600291", 
-        "inventory_days": "", 
-        "name": "西水股份", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3489", 
-        "code": "300178", 
-        "inventory_days": "", 
-        "name": "腾邦国际", 
-        "currentasset_turnover": "0.7795", 
-        "currentasset_days": "346.3759", 
-        "arturndays": "46.7452", 
-        "arturnover": "5.776", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3490", 
-        "code": "601878", 
-        "inventory_days": "", 
-        "name": "浙商证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3491", 
-        "code": "300191", 
-        "inventory_days": "", 
-        "name": "潜能恒信", 
-        "currentasset_turnover": "0.1111", 
-        "currentasset_days": "2430.243", 
-        "arturndays": "186.477", 
-        "arturnover": "1.4479", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3492", 
-        "code": "601990", 
-        "inventory_days": "", 
-        "name": "南京证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3493", 
-        "code": "601997", 
-        "inventory_days": "", 
-        "name": "贵阳银行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3494", 
-        "code": "002113", 
-        "inventory_days": "", 
-        "name": "天润数娱", 
-        "currentasset_turnover": "0.3631", 
-        "currentasset_days": "743.5968", 
-        "arturndays": "106.5803", 
-        "arturnover": "2.5333", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3495", 
-        "code": "000686", 
-        "inventory_days": "", 
-        "name": "东北证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3496", 
-        "code": "002818", 
-        "inventory_days": "", 
-        "name": "富森美", 
-        "currentasset_turnover": "0.6502", 
-        "currentasset_days": "415.2568", 
-        "arturndays": "0.9317", 
-        "arturnover": "289.7982", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3497", 
-        "code": "000712", 
-        "inventory_days": "", 
-        "name": "锦龙股份", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3498", 
-        "code": "002839", 
-        "inventory_days": "", 
-        "name": "张家港行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3499", 
-        "code": "600016", 
-        "inventory_days": "", 
-        "name": "民生银行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3500", 
-        "code": "000750", 
-        "inventory_days": "", 
-        "name": "国海证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3501", 
-        "code": "300635", 
-        "inventory_days": "", 
-        "name": "达安股份", 
-        "currentasset_turnover": "0.496", 
-        "currentasset_days": "544.3548", 
-        "arturndays": "379.2135", 
-        "arturnover": "0.7120000000000001", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3502", 
-        "code": "300295", 
-        "inventory_days": "", 
-        "name": "三六五网", 
-        "currentasset_turnover": "0.2347", 
-        "currentasset_days": "1150.4048", 
-        "arturndays": "20.0384", 
-        "arturnover": "13.4741", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3503", 
-        "code": "300299", 
-        "inventory_days": "", 
-        "name": "富春股份", 
-        "currentasset_turnover": "0.5643", 
-        "currentasset_days": "478.4689", 
-        "arturndays": "198.0634", 
-        "arturnover": "1.3632", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3504", 
-        "code": "600868", 
-        "inventory_days": "", 
-        "name": "梅雁吉祥", 
-        "currentasset_turnover": "0.6544", 
-        "currentasset_days": "412.5917", 
-        "arturndays": "42.8612", 
-        "arturnover": "6.2994", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3505", 
-        "code": "300315", 
-        "inventory_days": "", 
-        "name": "掌趣科技", 
-        "currentasset_turnover": "0.8758", 
-        "currentasset_days": "308.2896", 
-        "arturndays": "41.2592", 
-        "arturnover": "6.544", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3506", 
-        "code": "300668", 
-        "inventory_days": "", 
-        "name": "杰恩设计", 
-        "currentasset_turnover": "0.7211", 
-        "currentasset_days": "374.42800000000005", 
-        "arturndays": "169.067", 
-        "arturnover": "1.597", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3507", 
-        "code": "000828", 
-        "inventory_days": "", 
-        "name": "东莞控股", 
-        "currentasset_turnover": "0.4566", 
-        "currentasset_days": "591.3272", 
-        "arturndays": "5.121", 
-        "arturnover": "52.7239", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3508", 
-        "code": "000001", 
-        "inventory_days": "", 
-        "name": "平安银行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3509", 
-        "code": "002926", 
-        "inventory_days": "", 
-        "name": "华西证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3510", 
-        "code": "600919", 
-        "inventory_days": "", 
-        "name": "江苏银行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3511", 
-        "code": "002575", 
-        "inventory_days": "", 
-        "name": "群兴玩具", 
-        "currentasset_turnover": "0.0442", 
-        "currentasset_days": "6108.5973", 
-        "arturndays": "483.5244", 
-        "arturnover": "0.5584", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3512", 
-        "code": "300688", 
-        "inventory_days": "", 
-        "name": "创业黑马", 
-        "currentasset_turnover": "0.4848", 
-        "currentasset_days": "556.9307", 
-        "arturndays": "59.0087", 
-        "arturnover": "4.5756", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3513", 
-        "code": "300339", 
-        "inventory_days": "", 
-        "name": "润和软件", 
-        "currentasset_turnover": "0.6319", 
-        "currentasset_days": "427.2828", 
-        "arturndays": "220.4802", 
-        "arturnover": "1.2246", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3514", 
-        "code": "002939", 
-        "inventory_days": "", 
-        "name": "长城证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3515", 
-        "code": "600145", 
-        "inventory_days": "", 
-        "name": "*ST新亿", 
-        "currentasset_turnover": "0.0263", 
-        "currentasset_days": "10266.1597", 
-        "arturndays": "140.4641", 
-        "arturnover": "1.9222", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3516", 
-        "code": "300392", 
-        "inventory_days": "", 
-        "name": "腾信股份", 
-        "currentasset_turnover": "0.9067", 
-        "currentasset_days": "297.7832", 
-        "arturndays": "195.2701", 
-        "arturnover": "1.3827", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3517", 
-        "code": "300052", 
-        "inventory_days": "", 
-        "name": "中青宝", 
-        "currentasset_turnover": "0.3848", 
-        "currentasset_days": "701.6632", 
-        "arturndays": "139.5998", 
-        "arturnover": "1.9341", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3518", 
-        "code": "601162", 
-        "inventory_days": "", 
-        "name": "天风证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3519", 
-        "code": "601169", 
-        "inventory_days": "", 
-        "name": "北京银行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3520", 
-        "code": "601318", 
-        "inventory_days": "", 
-        "name": "中国平安", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3521", 
-        "code": "601375", 
-        "inventory_days": "", 
-        "name": "中原证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3522", 
-        "code": "601398", 
-        "inventory_days": "", 
-        "name": "工商银行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3523", 
-        "code": "600696", 
-        "inventory_days": "", 
-        "name": "ST岩石", 
-        "currentasset_turnover": "0.7231", 
-        "currentasset_days": "373.3923", 
-        "arturndays": "0.0499", 
-        "arturnover": "5415.8495", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3524", 
-        "code": "300492", 
-        "inventory_days": "", 
-        "name": "山鼎设计", 
-        "currentasset_turnover": "0.4718", 
-        "currentasset_days": "572.2764", 
-        "arturndays": "286.6546", 
-        "arturnover": "0.9419", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3525", 
-        "code": "601788", 
-        "inventory_days": "", 
-        "name": "光大证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3526", 
-        "code": "601818", 
-        "inventory_days": "", 
-        "name": "光大银行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3527", 
-        "code": "600318", 
-        "inventory_days": "", 
-        "name": "新力金融", 
-        "currentasset_turnover": "0.3859", 
-        "currentasset_days": "699.6631", 
-        "arturndays": "2.2965", 
-        "arturnover": "117.5722", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3528", 
-        "code": "300533", 
-        "inventory_days": "", 
-        "name": "冰川网络", 
-        "currentasset_turnover": "0.1192", 
-        "currentasset_days": "2265.1007", 
-        "arturndays": "16.0", 
-        "arturnover": "16.875", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3529", 
-        "code": "000676", 
-        "inventory_days": "", 
-        "name": "智度股份", 
-        "currentasset_turnover": "1.3074", 
-        "currentasset_days": "206.5168", 
-        "arturndays": "77.24", 
-        "arturnover": "3.4956", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3530", 
-        "code": "600385", 
-        "inventory_days": "", 
-        "name": "山东金泰", 
-        "currentasset_turnover": "0.0273", 
-        "currentasset_days": "9890.1099", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3531", 
-        "code": "300242", 
-        "inventory_days": "", 
-        "name": "佳云科技", 
-        "currentasset_turnover": "2.7103", 
-        "currentasset_days": "99.62", 
-        "arturndays": "58.888999999999996", 
-        "arturnover": "4.5849", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3532", 
-        "code": "600015", 
-        "inventory_days": "", 
-        "name": "华夏银行", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3533", 
-        "code": "000776", 
-        "inventory_days": "", 
-        "name": "广发证券", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3534", 
-        "code": "002558", 
-        "inventory_days": "", 
-        "name": "巨人网络", 
-        "currentasset_turnover": "0.2976", 
-        "currentasset_days": "907.2581", 
-        "arturndays": "138.1852", 
-        "arturnover": "1.9539", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3535", 
-        "code": "600901", 
-        "inventory_days": "", 
-        "name": "江苏租赁", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3536", 
-        "code": "600149", 
-        "inventory_days": "", 
-        "name": "ST坊展", 
-        "currentasset_turnover": "0.1647", 
-        "currentasset_days": "1639.3443", 
-        "arturndays": "11.0318", 
-        "arturnover": "24.4746", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3537", 
-        "code": "000166", 
-        "inventory_days": "", 
-        "name": "申万宏源", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3538", 
-        "code": "300399", 
-        "inventory_days": "", 
-        "name": "京天利", 
-        "currentasset_turnover": "0.5943", 
-        "currentasset_days": "454.316", 
-        "arturndays": "52.4038", 
-        "arturnover": "5.1523", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3539", 
-        "code": "601066", 
-        "inventory_days": "", 
-        "name": "中信建投", 
-        "currentasset_turnover": "", 
-        "currentasset_days": "", 
-        "arturndays": "", 
-        "arturnover": "", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3540", 
-        "code": "002619", 
-        "inventory_days": "", 
-        "name": "艾格拉斯", 
-        "currentasset_turnover": "0.2422", 
-        "currentasset_days": "1114.7812", 
-        "arturndays": "240.0854", 
-        "arturnover": "1.1246", 
-        "inventory_turnover": ""
-    }, 
-    {
-        "": "3541", 
         "code": "601099", 
         "inventory_days": "", 
         "name": "太平洋", 
@@ -38951,7 +37829,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3542", 
+        "": "3440", 
         "code": "601198", 
         "inventory_days": "", 
         "name": "东兴证券", 
@@ -38962,7 +37840,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3543", 
+        "": "3441", 
         "code": "601211", 
         "inventory_days": "", 
         "name": "国泰君安", 
@@ -38973,7 +37851,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3544", 
+        "": "3442", 
         "code": "601229", 
         "inventory_days": "", 
         "name": "上海银行", 
@@ -38984,7 +37862,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3545", 
+        "": "3443", 
         "code": "600652", 
         "inventory_days": "", 
         "name": "游久游戏", 
@@ -38995,7 +37873,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3546", 
+        "": "3444", 
         "code": "601319", 
         "inventory_days": "", 
         "name": "中国人保", 
@@ -39006,7 +37884,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3547", 
+        "": "3445", 
         "code": "601377", 
         "inventory_days": "", 
         "name": "兴业证券", 
@@ -39017,7 +37895,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3548", 
+        "": "3446", 
         "code": "603598", 
         "inventory_days": "", 
         "name": "引力传媒", 
@@ -39028,7 +37906,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3549", 
+        "": "3447", 
         "code": "601555", 
         "inventory_days": "", 
         "name": "东吴证券", 
@@ -39039,7 +37917,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3550", 
+        "": "3448", 
         "code": "601577", 
         "inventory_days": "", 
         "name": "长沙银行", 
@@ -39050,7 +37928,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3551", 
+        "": "3449", 
         "code": "000563", 
         "inventory_days": "", 
         "name": "陕国投A", 
@@ -39061,7 +37939,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3552", 
+        "": "3450", 
         "code": "000567", 
         "inventory_days": "", 
         "name": "海德股份", 
@@ -39072,7 +37950,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3553", 
+        "": "3451", 
         "code": "600291", 
         "inventory_days": "", 
         "name": "西水股份", 
@@ -39083,7 +37961,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3554", 
+        "": "3452", 
         "code": "300178", 
         "inventory_days": "", 
         "name": "腾邦国际", 
@@ -39094,7 +37972,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3555", 
+        "": "3453", 
         "code": "601878", 
         "inventory_days": "", 
         "name": "浙商证券", 
@@ -39105,7 +37983,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3556", 
+        "": "3454", 
         "code": "300191", 
         "inventory_days": "", 
         "name": "潜能恒信", 
@@ -39116,7 +37994,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3557", 
+        "": "3455", 
         "code": "601990", 
         "inventory_days": "", 
         "name": "南京证券", 
@@ -39127,7 +38005,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3558", 
+        "": "3456", 
         "code": "601997", 
         "inventory_days": "", 
         "name": "贵阳银行", 
@@ -39138,7 +38016,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3559", 
+        "": "3457", 
         "code": "002113", 
         "inventory_days": "", 
         "name": "天润数娱", 
@@ -39149,7 +38027,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3560", 
+        "": "3458", 
         "code": "000686", 
         "inventory_days": "", 
         "name": "东北证券", 
@@ -39160,7 +38038,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3561", 
+        "": "3459", 
         "code": "002818", 
         "inventory_days": "", 
         "name": "富森美", 
@@ -39171,7 +38049,7 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3562", 
+        "": "3460", 
         "code": "000712", 
         "inventory_days": "", 
         "name": "锦龙股份", 
@@ -39182,10 +38060,1132 @@
         "inventory_turnover": ""
     }, 
     {
-        "": "3563", 
+        "": "3461", 
         "code": "002839", 
         "inventory_days": "", 
         "name": "张家港行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3462", 
+        "code": "600016", 
+        "inventory_days": "", 
+        "name": "民生银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3463", 
+        "code": "000750", 
+        "inventory_days": "", 
+        "name": "国海证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3464", 
+        "code": "300635", 
+        "inventory_days": "", 
+        "name": "达安股份", 
+        "currentasset_turnover": "0.496", 
+        "currentasset_days": "544.3548", 
+        "arturndays": "379.2135", 
+        "arturnover": "0.7120000000000001", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3465", 
+        "code": "300295", 
+        "inventory_days": "", 
+        "name": "三六五网", 
+        "currentasset_turnover": "0.2347", 
+        "currentasset_days": "1150.4048", 
+        "arturndays": "20.0384", 
+        "arturnover": "13.4741", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3466", 
+        "code": "300299", 
+        "inventory_days": "", 
+        "name": "富春股份", 
+        "currentasset_turnover": "0.5643", 
+        "currentasset_days": "478.4689", 
+        "arturndays": "198.0634", 
+        "arturnover": "1.3632", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3467", 
+        "code": "600868", 
+        "inventory_days": "", 
+        "name": "梅雁吉祥", 
+        "currentasset_turnover": "0.6544", 
+        "currentasset_days": "412.5917", 
+        "arturndays": "42.8612", 
+        "arturnover": "6.2994", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3468", 
+        "code": "300315", 
+        "inventory_days": "", 
+        "name": "掌趣科技", 
+        "currentasset_turnover": "0.8758", 
+        "currentasset_days": "308.2896", 
+        "arturndays": "41.2592", 
+        "arturnover": "6.544", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3469", 
+        "code": "300668", 
+        "inventory_days": "", 
+        "name": "杰恩设计", 
+        "currentasset_turnover": "0.7211", 
+        "currentasset_days": "374.42800000000005", 
+        "arturndays": "169.067", 
+        "arturnover": "1.597", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3470", 
+        "code": "000828", 
+        "inventory_days": "", 
+        "name": "东莞控股", 
+        "currentasset_turnover": "0.4566", 
+        "currentasset_days": "591.3272", 
+        "arturndays": "5.121", 
+        "arturnover": "52.7239", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3471", 
+        "code": "000001", 
+        "inventory_days": "", 
+        "name": "平安银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3472", 
+        "code": "002926", 
+        "inventory_days": "", 
+        "name": "华西证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3473", 
+        "code": "600919", 
+        "inventory_days": "", 
+        "name": "江苏银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3474", 
+        "code": "002575", 
+        "inventory_days": "", 
+        "name": "群兴玩具", 
+        "currentasset_turnover": "0.0442", 
+        "currentasset_days": "6108.5973", 
+        "arturndays": "483.5244", 
+        "arturnover": "0.5584", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3475", 
+        "code": "300688", 
+        "inventory_days": "", 
+        "name": "创业黑马", 
+        "currentasset_turnover": "0.4848", 
+        "currentasset_days": "556.9307", 
+        "arturndays": "59.0087", 
+        "arturnover": "4.5756", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3476", 
+        "code": "300339", 
+        "inventory_days": "", 
+        "name": "润和软件", 
+        "currentasset_turnover": "0.6319", 
+        "currentasset_days": "427.2828", 
+        "arturndays": "220.4802", 
+        "arturnover": "1.2246", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3477", 
+        "code": "002939", 
+        "inventory_days": "", 
+        "name": "长城证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3478", 
+        "code": "600145", 
+        "inventory_days": "", 
+        "name": "*ST新亿", 
+        "currentasset_turnover": "0.0263", 
+        "currentasset_days": "10266.1597", 
+        "arturndays": "140.4641", 
+        "arturnover": "1.9222", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3479", 
+        "code": "600999", 
+        "inventory_days": "", 
+        "name": "招商证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3480", 
+        "code": "300191", 
+        "inventory_days": "", 
+        "name": "潜能恒信", 
+        "currentasset_turnover": "0.1111", 
+        "currentasset_days": "2430.243", 
+        "arturndays": "186.477", 
+        "arturnover": "1.4479", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3481", 
+        "code": "601990", 
+        "inventory_days": "", 
+        "name": "南京证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3482", 
+        "code": "000676", 
+        "inventory_days": "", 
+        "name": "智度股份", 
+        "currentasset_turnover": "1.3074", 
+        "currentasset_days": "206.5168", 
+        "arturndays": "77.24", 
+        "arturnover": "3.4956", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3483", 
+        "code": "600385", 
+        "inventory_days": "", 
+        "name": "山东金泰", 
+        "currentasset_turnover": "0.0273", 
+        "currentasset_days": "9890.1099", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3484", 
+        "code": "300242", 
+        "inventory_days": "", 
+        "name": "佳云科技", 
+        "currentasset_turnover": "2.7103", 
+        "currentasset_days": "99.62", 
+        "arturndays": "58.888999999999996", 
+        "arturnover": "4.5849", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3485", 
+        "code": "600015", 
+        "inventory_days": "", 
+        "name": "华夏银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3486", 
+        "code": "000776", 
+        "inventory_days": "", 
+        "name": "广发证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3487", 
+        "code": "002558", 
+        "inventory_days": "", 
+        "name": "巨人网络", 
+        "currentasset_turnover": "0.2976", 
+        "currentasset_days": "907.2581", 
+        "arturndays": "138.1852", 
+        "arturnover": "1.9539", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3488", 
+        "code": "600901", 
+        "inventory_days": "", 
+        "name": "江苏租赁", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3489", 
+        "code": "600149", 
+        "inventory_days": "", 
+        "name": "ST坊展", 
+        "currentasset_turnover": "0.1647", 
+        "currentasset_days": "1639.3443", 
+        "arturndays": "11.0318", 
+        "arturnover": "24.4746", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3490", 
+        "code": "300392", 
+        "inventory_days": "", 
+        "name": "腾信股份", 
+        "currentasset_turnover": "0.9067", 
+        "currentasset_days": "297.7832", 
+        "arturndays": "195.2701", 
+        "arturnover": "1.3827", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3491", 
+        "code": "300052", 
+        "inventory_days": "", 
+        "name": "中青宝", 
+        "currentasset_turnover": "0.3848", 
+        "currentasset_days": "701.6632", 
+        "arturndays": "139.5998", 
+        "arturnover": "1.9341", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3492", 
+        "code": "601162", 
+        "inventory_days": "", 
+        "name": "天风证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3493", 
+        "code": "601169", 
+        "inventory_days": "", 
+        "name": "北京银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3494", 
+        "code": "601318", 
+        "inventory_days": "", 
+        "name": "中国平安", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3495", 
+        "code": "601375", 
+        "inventory_days": "", 
+        "name": "中原证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3496", 
+        "code": "601398", 
+        "inventory_days": "", 
+        "name": "工商银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3497", 
+        "code": "600696", 
+        "inventory_days": "", 
+        "name": "ST岩石", 
+        "currentasset_turnover": "0.7231", 
+        "currentasset_days": "373.3923", 
+        "arturndays": "0.0499", 
+        "arturnover": "5415.8495", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3498", 
+        "code": "300492", 
+        "inventory_days": "", 
+        "name": "山鼎设计", 
+        "currentasset_turnover": "0.4718", 
+        "currentasset_days": "572.2764", 
+        "arturndays": "286.6546", 
+        "arturnover": "0.9419", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3499", 
+        "code": "601788", 
+        "inventory_days": "", 
+        "name": "光大证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3500", 
+        "code": "601818", 
+        "inventory_days": "", 
+        "name": "光大银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3501", 
+        "code": "600318", 
+        "inventory_days": "", 
+        "name": "新力金融", 
+        "currentasset_turnover": "0.3859", 
+        "currentasset_days": "699.6631", 
+        "arturndays": "2.2965", 
+        "arturnover": "117.5722", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3502", 
+        "code": "300533", 
+        "inventory_days": "", 
+        "name": "冰川网络", 
+        "currentasset_turnover": "0.1192", 
+        "currentasset_days": "2265.1007", 
+        "arturndays": "16.0", 
+        "arturnover": "16.875", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3503", 
+        "code": "002807", 
+        "inventory_days": "", 
+        "name": "江阴银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3504", 
+        "code": "002464", 
+        "inventory_days": "", 
+        "name": "众应互联", 
+        "currentasset_turnover": "1.1004", 
+        "currentasset_days": "245.3653", 
+        "arturndays": "81.8157", 
+        "arturnover": "3.3001", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3505", 
+        "code": "600790", 
+        "inventory_days": "", 
+        "name": "轻纺城", 
+        "currentasset_turnover": "0.4338", 
+        "currentasset_days": "622.4066", 
+        "arturndays": "1.0406", 
+        "arturnover": "259.4534", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3506", 
+        "code": "600000", 
+        "inventory_days": "", 
+        "name": "浦发银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3507", 
+        "code": "000728", 
+        "inventory_days": "", 
+        "name": "国元证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3508", 
+        "code": "600421", 
+        "inventory_days": "", 
+        "name": "ST仰帆", 
+        "currentasset_turnover": "-0.0041", 
+        "currentasset_days": "-65853.6585", 
+        "arturndays": "-35526.3158", 
+        "arturnover": "-0.0076", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3509", 
+        "code": "002500", 
+        "inventory_days": "", 
+        "name": "山西证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3510", 
+        "code": "600834", 
+        "inventory_days": "", 
+        "name": "申通地铁", 
+        "currentasset_turnover": "1.2915", 
+        "currentasset_days": "209.0592", 
+        "arturndays": "2.6303", 
+        "arturnover": "102.6498", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3511", 
+        "code": "300662", 
+        "inventory_days": "", 
+        "name": "科锐国际", 
+        "currentasset_turnover": "1.6344", 
+        "currentasset_days": "165.1982", 
+        "arturndays": "77.1671", 
+        "arturnover": "3.4989", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3512", 
+        "code": "600909", 
+        "inventory_days": "", 
+        "name": "华安证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3513", 
+        "code": "600958", 
+        "inventory_days": "", 
+        "name": "东方证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3514", 
+        "code": "000166", 
+        "inventory_days": "", 
+        "name": "申万宏源", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3515", 
+        "code": "300399", 
+        "inventory_days": "", 
+        "name": "京天利", 
+        "currentasset_turnover": "0.5943", 
+        "currentasset_days": "454.316", 
+        "arturndays": "52.4038", 
+        "arturnover": "5.1523", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3516", 
+        "code": "601066", 
+        "inventory_days": "", 
+        "name": "中信建投", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3517", 
+        "code": "002312", 
+        "inventory_days": "", 
+        "name": "三泰控股", 
+        "currentasset_turnover": "0.2426", 
+        "currentasset_days": "1112.9431", 
+        "arturndays": "62.4148", 
+        "arturnover": "4.3259", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3518", 
+        "code": "600621", 
+        "inventory_days": "", 
+        "name": "华鑫股份", 
+        "currentasset_turnover": "0.0055", 
+        "currentasset_days": "49090.9091", 
+        "arturndays": "264.8097", 
+        "arturnover": "1.0196", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3519", 
+        "code": "000987", 
+        "inventory_days": "", 
+        "name": "越秀金控", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3520", 
+        "code": "002673", 
+        "inventory_days": "", 
+        "name": "西部证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3521", 
+        "code": "601328", 
+        "inventory_days": "", 
+        "name": "交通银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3522", 
+        "code": "601601", 
+        "inventory_days": "", 
+        "name": "中国太保", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3523", 
+        "code": "600695", 
+        "inventory_days": "", 
+        "name": "绿庭投资", 
+        "currentasset_turnover": "0.1046", 
+        "currentasset_days": "2581.262", 
+        "arturndays": "15.6174", 
+        "arturnover": "17.2884", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3524", 
+        "code": "601628", 
+        "inventory_days": "", 
+        "name": "中国人寿", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3525", 
+        "code": "601688", 
+        "inventory_days": "", 
+        "name": "华泰证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3526", 
+        "code": "601881", 
+        "inventory_days": "", 
+        "name": "中国银河", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3527", 
+        "code": "601901", 
+        "inventory_days": "", 
+        "name": "方正证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3528", 
+        "code": "603729", 
+        "inventory_days": "", 
+        "name": "龙韵股份", 
+        "currentasset_turnover": "1.1067", 
+        "currentasset_days": "243.9686", 
+        "arturndays": "127.7804", 
+        "arturnover": "2.113", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3529", 
+        "code": "601988", 
+        "inventory_days": "", 
+        "name": "中国银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3530", 
+        "code": "601998", 
+        "inventory_days": "", 
+        "name": "中信银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3531", 
+        "code": "600369", 
+        "inventory_days": "", 
+        "name": "西南证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3532", 
+        "code": "002142", 
+        "inventory_days": "", 
+        "name": "宁波银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3533", 
+        "code": "600816", 
+        "inventory_days": "", 
+        "name": "安信信托", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3534", 
+        "code": "600030", 
+        "inventory_days": "", 
+        "name": "中信证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3535", 
+        "code": "600837", 
+        "inventory_days": "", 
+        "name": "海通证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3536", 
+        "code": "600036", 
+        "inventory_days": "", 
+        "name": "招商银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3537", 
+        "code": "002174", 
+        "inventory_days": "", 
+        "name": "游族网络", 
+        "currentasset_turnover": "0.8787", 
+        "currentasset_days": "307.2721", 
+        "arturndays": "66.9178", 
+        "arturnover": "4.0348", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3538", 
+        "code": "000783", 
+        "inventory_days": "", 
+        "name": "长江证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3539", 
+        "code": "002883", 
+        "inventory_days": "", 
+        "name": "中设股份", 
+        "currentasset_turnover": "0.4726", 
+        "currentasset_days": "571.3077", 
+        "arturndays": "319.2621", 
+        "arturnover": "0.8457", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3540", 
+        "code": "002312", 
+        "inventory_days": "", 
+        "name": "三泰控股", 
+        "currentasset_turnover": "0.2426", 
+        "currentasset_days": "1112.9431", 
+        "arturndays": "62.4148", 
+        "arturnover": "4.3259", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3541", 
+        "code": "600621", 
+        "inventory_days": "", 
+        "name": "华鑫股份", 
+        "currentasset_turnover": "0.0055", 
+        "currentasset_days": "49090.9091", 
+        "arturndays": "264.8097", 
+        "arturnover": "1.0196", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3542", 
+        "code": "000987", 
+        "inventory_days": "", 
+        "name": "越秀金控", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3543", 
+        "code": "002673", 
+        "inventory_days": "", 
+        "name": "西部证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3544", 
+        "code": "601328", 
+        "inventory_days": "", 
+        "name": "交通银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3545", 
+        "code": "601601", 
+        "inventory_days": "", 
+        "name": "中国太保", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3546", 
+        "code": "600695", 
+        "inventory_days": "", 
+        "name": "绿庭投资", 
+        "currentasset_turnover": "0.1046", 
+        "currentasset_days": "2581.262", 
+        "arturndays": "15.6174", 
+        "arturnover": "17.2884", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3547", 
+        "code": "601628", 
+        "inventory_days": "", 
+        "name": "中国人寿", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3548", 
+        "code": "601688", 
+        "inventory_days": "", 
+        "name": "华泰证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3549", 
+        "code": "601881", 
+        "inventory_days": "", 
+        "name": "中国银河", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3550", 
+        "code": "601901", 
+        "inventory_days": "", 
+        "name": "方正证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3551", 
+        "code": "603729", 
+        "inventory_days": "", 
+        "name": "龙韵股份", 
+        "currentasset_turnover": "1.1067", 
+        "currentasset_days": "243.9686", 
+        "arturndays": "127.7804", 
+        "arturnover": "2.113", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3552", 
+        "code": "601988", 
+        "inventory_days": "", 
+        "name": "中国银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3553", 
+        "code": "002807", 
+        "inventory_days": "", 
+        "name": "江阴银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3554", 
+        "code": "002464", 
+        "inventory_days": "", 
+        "name": "众应互联", 
+        "currentasset_turnover": "1.1004", 
+        "currentasset_days": "245.3653", 
+        "arturndays": "81.8157", 
+        "arturnover": "3.3001", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3555", 
+        "code": "600790", 
+        "inventory_days": "", 
+        "name": "轻纺城", 
+        "currentasset_turnover": "0.4338", 
+        "currentasset_days": "622.4066", 
+        "arturndays": "1.0406", 
+        "arturnover": "259.4534", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3556", 
+        "code": "600000", 
+        "inventory_days": "", 
+        "name": "浦发银行", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3557", 
+        "code": "000728", 
+        "inventory_days": "", 
+        "name": "国元证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3558", 
+        "code": "600421", 
+        "inventory_days": "", 
+        "name": "ST仰帆", 
+        "currentasset_turnover": "-0.0041", 
+        "currentasset_days": "-65853.6585", 
+        "arturndays": "-35526.3158", 
+        "arturnover": "-0.0076", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3559", 
+        "code": "002500", 
+        "inventory_days": "", 
+        "name": "山西证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3560", 
+        "code": "600834", 
+        "inventory_days": "", 
+        "name": "申通地铁", 
+        "currentasset_turnover": "1.2915", 
+        "currentasset_days": "209.0592", 
+        "arturndays": "2.6303", 
+        "arturnover": "102.6498", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3561", 
+        "code": "300662", 
+        "inventory_days": "", 
+        "name": "科锐国际", 
+        "currentasset_turnover": "1.6344", 
+        "currentasset_days": "165.1982", 
+        "arturndays": "77.1671", 
+        "arturnover": "3.4989", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3562", 
+        "code": "600909", 
+        "inventory_days": "", 
+        "name": "华安证券", 
+        "currentasset_turnover": "", 
+        "currentasset_days": "", 
+        "arturndays": "", 
+        "arturnover": "", 
+        "inventory_turnover": ""
+    }, 
+    {
+        "": "3563", 
+        "code": "600958", 
+        "inventory_days": "", 
+        "name": "东方证券", 
         "currentasset_turnover": "", 
         "currentasset_days": "", 
         "arturndays": "", 
