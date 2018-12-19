@@ -20,3 +20,14 @@ User.create!(name:  "stock",
                password:              password,
                password_confirmation: password)
 end
+
+require 'csv'
+file='/root/Stock/stock/db/allstock.csv'
+CSV.parse(File.read(file)).each do |stock|
+  stock=stock.join(",")
+  array=[]
+  array=stock.split(",")
+  code = array[1]
+  name = array[2]
+  Mystock.create!(name: name, code: code)
+end

@@ -1,6 +1,9 @@
 class MystocksController < ApplicationController
 require 'csv'
 require 'json'
+
+before_action :admin_user, only: [:index,:new]
+
 def index
   @mystocks = Mystock.all
 end
@@ -60,5 +63,9 @@ end
 private
   def mystock_params
     params.require(:mystock).permit(:name,:code)
+  end
+  
+  def admin_user
+    redirect_to(login_url) unless (logged_in?) && (current_user.admin?)
   end
 end

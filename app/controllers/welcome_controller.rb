@@ -1,10 +1,9 @@
 class WelcomeController < ApplicationController
-  before_action :correct_user, only: [:mainpage]
+  before_action :login_user,  only: [:mainpage]
 
   def home
   end
   def default
-    @history=[1,2,3,4,5]
   end
   def mainpage
   end
@@ -18,7 +17,11 @@ class WelcomeController < ApplicationController
   end
 
   private
-    def correct_user
-      redirect_to(login_url) unless (request.referer == root_url)||(request.referer == signup_url) ||(request.url == mainpage_url)
+    def login_user
+      #@session_user = 1
+      unless logged_in?
+        #flash[:danger] = "请登录"
+        redirect_to login_url
+      end
     end
 end
