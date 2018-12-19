@@ -15,4 +15,5 @@
 /log/*.log
 /tmp
 .DS_Store
-/app/controllers/temp/data/*
+/app/controllers/temp/data/history/*
+/app/controllers/temp/data/future/*
