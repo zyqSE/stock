@@ -50,23 +50,27 @@ def price
 end
 
 def evaluation
-  cashflow_file="app/controllers/temp/data/evaluate/cashflow_data.json"
-  debtpaying_file="app/controllers/temp/data/evaluate/cashflow_data.json"
-  growth_file="app/controllers/temp/data/evaluate/growth_data.json"
-  operation_file="app/controllers/temp/data/evaluate/operation_data.json"
-  profit_file="app/controllers/temp/data/evaluate/profit_data.json"
-  @cashflow = File.read(cashflow_file)
-  @debtpaying = File.read(debtpaying_file)
-  @growth = File.read(growth_file) 
-  @operation = File.read(operation_file)
-  @profit = File.read(profit_file)
+
+  stock_code = params[:code]
+  stock_code = stock_code.to_s
+  stock_code = stock_code.rjust(6,'0')
+
+  #最近一个季度
+  data_file = "app/controllers/temp/data/evaluate/evaluation_" + stock_code + ".json"
+  #上一个季度
+  old_file = "app/controllers/temp/data/evaluate/old_evaluation_" + stock_code + ".json"
+
+  if File.exists?(data_file) && File.exists?(old_file) then
+    #@history_price = File.read(data_file)
+  else
+    `python app/controllers/temp/evaluation/evaluate.sh`
+  end
+  @evaluation = File.read(data_file)
+  @old_evaluation = File.read(old_file)
   
   respond_to do |format|
-  format.json  { render :json => {:cashflow => @cashflow, 
-                                  :debtpaying => @debtpaying,
-                                  :growth => @growth,
-                                  :operation => @operation,
-                                  :profit => @profit }}
+  format.json  { render :json => {:evaluation => @evaluation, 
+                                  :old_evaluation => @old_evaluation }}
   end
 end
 

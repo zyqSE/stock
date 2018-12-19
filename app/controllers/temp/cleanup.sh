@@ -8,8 +8,9 @@ file_path="/root/Stock/stock/app/controllers/temp/data/history"
 
 echo ${today}": cleanup 1-day-ago files executing..." >> $log_path
 #删除1天前的json文件
-#find $file_path -mtime +1 -name "*.json" -exec rm -rf {} \;
-find ${file_path}/* -type f -mtime +1 -exec rm {} \;
+#find $file_path -mtime +1 -name "*.json" -exec ls -l {} \;
+find $file_path -mtime +1 -name "*.json" -exec rm {} \;
+
 #执行情况输入日志文件中
 if [ $? -ne 0 ]; then
     echo ${today}": clean up json failed." >> $log_path

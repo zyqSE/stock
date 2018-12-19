@@ -6,14 +6,21 @@ import pandas as pd
 reload(sys)
 sys.setdefaultencoding( "utf-8" )
 
-input_file = sys.argv[1]
+#code_file=open("app/controllers/temp/code.txt","r")
+code_file=open("../code.txt","r")
+code = code_file.read().splitlines()
+code_file.close()
+code=''.join(code)
+code=code.zfill(6)
+
+input_file = "../data/evaluate/old_evaluation_" + code + ".csv"
 lines = io.open(input_file, "r", encoding="utf_8_sig").readlines()
 
 lines = [line.strip() for line in lines]
 
 keys = lines[0].split(',')
-
-line_num = 2
+#print keys
+line_num = 1
 total_lines = len(lines)
 
 parsed_datas = []
