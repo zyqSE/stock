@@ -5,6 +5,7 @@ Stock::Application.routes.draw do
   get '/predict/:code',    to: 'mystocks#prediction'
   get '/price/:code',      to: 'mystocks#price'
   get '/evaluation/:code', to: 'mystocks#evaluation'
+  get '/evaluate/:code',   to: 'mystocks#evaluate'
 
   get '/login',            to: 'welcome#login'
   get '/default',          to: 'welcome#default'

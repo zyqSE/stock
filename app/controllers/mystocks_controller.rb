@@ -49,7 +49,13 @@ def price
   #future获取预测价格
 end
 
+#获取评估页面
 def evaluation
+  @stock_code = params[:code]
+end
+
+#获取评估数据
+def evaluate
 
   stock_code = params[:code]
   stock_code = stock_code.to_s
@@ -63,7 +69,7 @@ def evaluation
   if File.exists?(data_file) && File.exists?(old_file) then
     #@history_price = File.read(data_file)
   else
-    `python app/controllers/temp/evaluation/evaluate.sh`
+    `bash app/controllers/temp/evaluation/evaluate.sh`
   end
   @evaluation = File.read(data_file)
   @old_evaluation = File.read(old_file)
