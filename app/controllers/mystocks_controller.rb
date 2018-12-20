@@ -49,7 +49,13 @@ def price
   #future获取预测价格
 end
 
+#获取评估页面
 def evaluation
+  @stock_code = params[:code]
+end
+
+#获取评估数据
+def evaluate
 
   stock_code = params[:code]
   stock_code = stock_code.to_s
