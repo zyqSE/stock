@@ -5,15 +5,15 @@ import os
 
 from operator import itemgetter
 
-code_file=open("../code.txt","r")
+code_file=open("app/controllers/temp/code.txt","r")
 the_code = code_file.read().splitlines()
 code_file.close()
 the_code=''.join(the_code)
 the_code=the_code.zfill(6)
 
-input_file1 = open("profit_data.csv")
-input_file2 = open("cashflow_data.csv")
-output_file = open("../data/evaluate/evaluation_"+ the_code +".csv","w")
+input_file1 = open("app/controllers/temp/evaluation/profit_data.csv")
+input_file2 = open("app/controllers/temp/evaluation/cashflow_data.csv")
+output_file = open("app/controllers/temp/data/evaluate/evaluation_"+ the_code +".csv","w")
 
 table1 = []
 for line in input_file1:

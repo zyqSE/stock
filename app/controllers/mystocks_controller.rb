@@ -69,7 +69,7 @@ def evaluate
   if File.exists?(data_file) && File.exists?(old_file) then
     #@history_price = File.read(data_file)
   else
-    `python app/controllers/temp/evaluation/evaluate.sh`
+    `bash app/controllers/temp/evaluation/evaluate.sh`
   end
   @evaluation = File.read(data_file)
   @old_evaluation = File.read(old_file)
