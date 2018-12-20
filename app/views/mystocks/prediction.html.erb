@@ -23,14 +23,14 @@
         }
     </style>
     <script>
-        var stocCode = <%= @stock_code %>;
+        var stockCode = <%= @stock_code %>;
         var categoryData = [];
         var dailyValues = [];
         var ma5 = [];
         var ma10 = [];
         var ma20 = [];
         //to evaluate page
-        $('#btn_evaluate').on('click', function(){ loadPage('content', urlEvaluation) });
+        $('#btn_evaluate').on('click', function(){ loadPage('content', urlEvaluation + stockCode) });
         $(function(){
             $.ajax({
                 type: 'GET',
@@ -38,7 +38,7 @@
                     chartHistory.showLoading();
                     xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))
                 },
-                url: '/price/'+ stocCode,
+                url: '/price/'+ stockCode,
                 error: function(request){
                     alert('Oooops~ Something gose wrong.');
                 },
