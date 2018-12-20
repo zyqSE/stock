@@ -88,6 +88,7 @@
                 url: '/evaluate/'+ stockCode,
                 error: function(request){
                     alert('Oooops~ Something gose wrong.');
+                    chartEvaluation.hideLoading();
                 },
                 success: function(evalData){
                     alert('Yeah!');
