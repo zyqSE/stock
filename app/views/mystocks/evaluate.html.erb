@@ -19,6 +19,7 @@
     </style>
     <script>
         //to predict page
+        var stockCode = <%= @stock_code %>;
         $('#btn_predict').on('click', function(){ loadPage('content', urlPrediction)});
     </script>
 </head>
@@ -30,7 +31,7 @@
     </div>
     <script>
         var dom = document.getElementById("evaluation");
-        var evaluationChart = echarts.init(dom);
+        var chartEvaluation = echarts.init(dom);
         var app = {};
         option = null;
         option = {
@@ -75,9 +76,29 @@
                     }
                 ]
             }]
-        };;
+        };
+
+        chartEvaluation.on('restore', function(){
+            $.ajax({
+                type: 'GET',
+                beforeSend: function(xhr) {
+                    chartEvaluation.showLoading();
+                    xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))
+                },
+                url: '/evaluate/'+ stockCode,
+                error: function(request){
+                    alert('Oooops~ Something gose wrong.');
+                },
+                success: function(evalData){
+                    alert('Yeah!');
+                    console.log(evalData);
+                    chartEvaluation.hideLoading();
+                }
+            });
+        })
+
         if (option && typeof option === "object") {
-            evaluationChart.setOption(option, true);
+            chartEvaluation.setOption(option, true);
         }
     </script>
 </body>
