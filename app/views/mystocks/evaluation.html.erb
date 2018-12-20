@@ -20,7 +20,7 @@
     <script>
         //to predict page
         var stockCode = <%= @stock_code %>;
-        $('#btn_predict').on('click', function(){ loadPage('content', urlPrediction)});
+        $('#btn_predict').on('click', function(){ loadPage('content', urlPrediction + stockCode )});
     </script>
 </head>
 <body>
@@ -78,7 +78,7 @@
             }]
         };
 
-        chartEvaluation.on('restore', function(){
+        $(function(){
             $.ajax({
                 type: 'GET',
                 beforeSend: function(xhr) {
@@ -88,6 +88,7 @@
                 url: '/evaluate/'+ stockCode,
                 error: function(request){
                     alert('Oooops~ Something gose wrong.');
+                    chartEvaluation.hideLoading();
                 },
                 success: function(evalData){
                     alert('Yeah!');
