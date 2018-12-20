@@ -6,10 +6,10 @@ from datetime import datetime, date, timedelta
 
 def history (code, start, end):
         a  = ts.get_hist_data(str(code),start,end)   
-        a.to_csv('app/controllers/temp/data/history/history.csv')
+        a.to_csv('app/controllers/temp/history.csv')
         #a.to_csv('history.csv')
-        new = 'app/controllers/temp/data/history/history_'+str(code)+'.csv'
-        os.rename('app/controllers/temp/data/history/history.csv',new)
+        new = 'app/controllers/temp/history_'+str(code)+'.csv'
+        os.rename('app/controllers/temp/history.csv',new)
         #os.rename('history.csv',new)
         
 	
