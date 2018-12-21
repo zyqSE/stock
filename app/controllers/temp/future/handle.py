@@ -15,12 +15,12 @@ the_code=the_code.zfill(6)
 input_file = "app/controllers/temp/future/future_" + the_code + ".csv"
 output_file = open("app/controllers/temp/future/"+ the_code +".csv","w")
 
-header='date,close'
+header='date,close,open,high,low'
 output_file.write(header+'\n')
 
 with open(input_file,'rb') as csvfile:
     data = csv.reader(csvfile)
-    i=0
+    i=2
     for row in data:
       close=row[1]
       if close=="close":
@@ -28,7 +28,10 @@ with open(input_file,'rb') as csvfile:
       else:
         day=datetime.now()+timedelta(i)
         day=day.strftime('%Y-%m-%d')
-        output_file.write(day+','+close+'\n')
+        open_d=row[2]
+        high=row[3]
+        low=row[4]
+        output_file.write(day+','+close+','+open_d+','+high+','+low+'\n')
         i=i+2
       
 csvfile.close()

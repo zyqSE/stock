@@ -3,6 +3,9 @@
 		"filename": "history.csv",
 		"columns": [
 			"close",
+			"open",
+			"high",
+			"low",
 			"volume"
 		],
 		"sequence_length": 50,
