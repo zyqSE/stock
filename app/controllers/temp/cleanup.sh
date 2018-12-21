@@ -10,7 +10,7 @@ echo ${today}": cleanup 1-day-ago files executing..." >> $log_path
 #删除1天前的历史临时文件
 #find $file_path -mtime +1 -name "*.json" -exec ls -l {} \;
 #find 命令是递归的; data目录下的history future evaluate目录都会被遍历
-find $temp_data -mtime +1 -name "*.json" -exec rm -f {} \;
+find $temp_data -mmin +1 -name "*.json" -exec rm -f {} \;
 
 #执行情况输入日志文件中
 if [ $? -ne 0 ]; then

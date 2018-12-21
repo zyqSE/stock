@@ -42,7 +42,7 @@ def price
      #json = File.read("app/controllers/temp/history.json")
   end
   @history_price = File.read(data_file)
-  render :json=> @history_price
+  #render :json=> @history_price
   
   #future获取预测价格
   future_data = "app/controllers/temp/data/future/future_" + stock_code + ".json"
@@ -53,7 +53,12 @@ def price
     #json = File.read("app/controllers/temp/history.json")
   end
   @future_price = File.read(future_data)
-  render :json=> @future_price
+  #render :json=> @future_price
+  
+  respond_to do |format|
+  format.json  { render :json => {:history => @history_price,
+                                  :future => @future_price }}
+  end
 end
 
 #获取评估页面

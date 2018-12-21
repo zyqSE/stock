@@ -164,6 +164,18 @@
             //load prediction page
             loadPage('content', urlPrediction + stockCode);
         }
+
+        function parseNum(rawData){
+            values = [];
+            values.push(isNaN(Number(rawData.roe)) ? 'Unknown' : Number(rawData.roe));
+            values.push(isNaN(Number(rawData.net_profit_ratio)) ? 'Unknown' : Number(rawData.net_profit_ratio));
+            values.push(isNaN(Number(rawData.net_profits)) ? 'Unknown' : Number(rawData.net_profits));
+            values.push(isNaN(Number(rawData.eps)) ? 'Unknown' : Number(rawData.eps));
+            values.push(isNaN(Number(rawData.rateofreturn)) ? 'Unknown' : Number(rawData.rateofreturn));
+            values.push(isNaN(Number(rawData.cashflow)) ? 'Unknown' : Number(rawData.cashflow));
+            values.push(isNaN(Number(rawData.cf_sales)) ? 'Unknown' : Number(rawData.cf_sales));
+            return values;
+        }
     </script>
 </body>
 </html>
