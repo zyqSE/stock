@@ -52,6 +52,7 @@
                     futureData = JSON.parse(data.future);
                     //数据预处理
                     historyData.reverse();
+                    futureData.reverse();
                     $.each(historyData, function(idx, dayData){
                         categoryData.push(dayData.date);
                         dailyValues.push([dayData.open, dayData.close, dayData.low, dayData.high]);
