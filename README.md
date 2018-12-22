@@ -1,5 +1,5 @@
 ## Stock Seer 股票价格在线预测工具  
-一个利用 Ruby on Rails 搭建的超轻量级股票价格预测工具， 采用Tushare和（预测模型）进行股票数据的获取和预测
+一个利用 Ruby on Rails 搭建的超轻量级股票价格预测工具， 采用Tushare和LSTM神经网络进行股票数据的获取和预测
 ## Online Demo
 访问[Stock Seer](http://47.92.125.215/)查看在线演示。  
 ![网站首页](https://github.com/9kalikali/Algorithm_Course/blob/master/Others/demo1.png)
@@ -42,7 +42,9 @@
     import tushare
     print(tushare.__version__)
     ```
-3. **（预测模型）的安装**
+3. **预测模型的安装**
+   + 安装python 3.5.x, TensorFlow 1.10.0, Numpy 1.15.0, Keras 2.2.2, Matplotlib 2.2.2
+   + fork项目到服务器 `git clone https://github.com/jaungiers/LSTM-Neural-Network-for-Time-Series-Prediction.git`
 ## Todo
 1. 股价评估的雷达图显示效果较差，欲寻找一种更合适的可视化方案
 2. 添加用户浏览历史以及收藏功能。
@@ -50,3 +52,4 @@
 + Logo制作：[DesignEVO在线Logo制作](https://www.designevo.com/cn/)
 + 财经数据获取：[TuShare财经数据接口包](http://tushare.org/)
 + 服务器配置与部署：[如何在Ubuntu云服务器上部署自己的 Rails 应用](https://ruby-china.org/topics/32851)
++ GitHub [LSTM Neural Network for Time Series Prediction](https://github.com/jaungiers/LSTM-Neural-Network-for-Time-Series-Prediction)
