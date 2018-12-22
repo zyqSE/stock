@@ -13,7 +13,25 @@
 2. 根据股票代码查询股票
 3. 点击相应股票，查看价格预测与评估  
 ## Usage
-1. **Fork 项目**
+1. **项目的配置与部署**
+   + 确保自己的服务器上已安装了Ruby, Rails以及数据库，详情请参考[《在Aliyun上快速部署Ruby on Rails》](https://ruby-china.org/topics/17553)
+   + 下载项目到服务器`git clone https://github.com/zyqSE/stock.git`
+   + 安装项目  
+   ```
+   $ cd stock
+   $ bundle install
+   #创建生产环境数据库并执行迁移
+   $ RAILS_ENV=production rake db:create  
+   $ RAILS_ENV=production rake db:migrate
+   #重新compile assets 这样CSS, script资源才会加载
+   $ RAILS_ENV=production rake assets:precompile
+   ```
+   + 配置定时清理程序，利用`crontab -e`添加定时任务即可（建议每天00:01分执行清理）清理脚本路径`stock/app/controllers/temp/cleanup.sh`
+   + 启动应用  
+   ```
+   $ cd stock/bin
+   $ myrails     #默认80端口
+   ```
 2. **TuShare安装**
    + 安装python
    + 安装pandas
@@ -22,7 +40,6 @@
    + 版本查看
     ```
     import tushare
-
     print(tushare.__version__)
     ```
 3. **（预测模型）的安装**
