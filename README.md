@@ -46,4 +46,7 @@
 ## Todo
 1. 股价评估的雷达图显示效果较差，欲寻找一种更合适的可视化方案
 2. 添加用户浏览历史以及收藏功能。
-## Reference
+## Reference & Support
++ Logo制作：[DesignEVO在线Logo制作](https://www.designevo.com/cn/)
++ 财经数据获取：[TuShare财经数据接口包](http://tushare.org/)
++ 服务器配置与部署：[如何在Ubuntu云服务器上部署自己的 Rails 应用](https://ruby-china.org/topics/32851)
