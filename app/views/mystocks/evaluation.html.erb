@@ -19,12 +19,13 @@
     </style>
     <script>
         //to predict page
-        var stockCode = <%= @stock_code %>;
+        var stockCode = <%= @stock.code %>;
         $('#btn_predict').on('click', function(){ loadPage('content', urlPrediction + stockCode ) });
     </script>
 </head>
 <body>
     <div class="container-fluid" style="height: 100%; margin-top: 4%">
+        <h2 class="text-center">股票名称:<%= @stock.name %></h2>
         <div class="row" id="evaluation" style="height: 90%">
         </div>
         <button id="btn_predict" class="btn btn-primary" style="margin-left: 47%; margin-top: 1%">价格预测</button>
