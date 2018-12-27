@@ -59,7 +59,6 @@ def main():
     predictions_high = model_high.predict_sequences_multiple(x_high, configs['data']['sequence_length'], configs['data']['sequence_length'])
     predictions_low = model_low.predict_sequences_multiple(x_low, configs['data']['sequence_length'], configs['data']['sequence_length'])
 
- 
     predicted=[]
 #    for i, data in enumerate(predictions):
 #        predicted=predicted+data

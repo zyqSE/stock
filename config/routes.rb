@@ -11,8 +11,6 @@ Stock::Application.routes.draw do
   get '/default',          to: 'welcome#default'
   get '/mainpage',         to: 'welcome#mainpage'
   get '/signup',           to: 'welcome#signup'
-  get '/demopredict',      to: 'welcome#demoprediction'
-  get '/demoevaluate',     to: 'welcome#demoevaluate'
 
   post '/newuser',         to: 'users#create'
   post '/search',          to: 'mystocks#search'
