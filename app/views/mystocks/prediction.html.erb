@@ -23,7 +23,7 @@
         }
     </style>
     <script>
-        var stockCode = <%= @stock_code %>;
+        var stockCode = <%= @stock.code %>;
         var categoryData = [];
         var futureCatagory= [];
         var dailyValues = [];
@@ -111,6 +111,7 @@
 </head>
 <body>
     <div class="container-fluid" style="height:100%; margin-top: 4%">
+        <h2 class="text-center">股票名称:<%= @stock.name %></h2>
         <div class="row" id="history" style="height:45%">
 
         </div>
