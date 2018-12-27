@@ -42,7 +42,7 @@
                     xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))
                 },
                 url: '/price/'+ stockCode,
-                timeout: 40000,
+                timeout: 20000,
                 error: function(request){
                     alert('Oooops~ Something gose wrong.');
                     chartHistory.hideLoading(); 
@@ -111,6 +111,7 @@
 </head>
 <body>
     <div class="container-fluid" style="height:100%; margin-top: 4%">
+        <h2 class="text-center">股票名称:<%= @stock.name %></h2>
         <div class="row" id="history" style="height:45%">
 
         </div>

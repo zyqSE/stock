@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 import os
+import csv
 
 from operator import itemgetter
 
@@ -21,41 +22,36 @@ input_file2 = open("app/controllers/temp/evaluation/old_cashflow_data.csv")
 
 output_file = open("app/controllers/temp/evaluation/handleout2.csv","w")
 
-table1 = []
-for line in input_file1:
-    col = line.split(',') #每行分隔为列表，好处理列格式
-    col[1] = str(col[1])
-    table1.append(col) #嵌套列表table[[8,8][*,*],...]
+table1=csv.reader(input_file1,delimiter=',')
+table_sorted1 = sorted(table1, key=lambda x: x[1])
+table_sorted1.pop()
 
-table_sorted1 = sorted(table1, key=itemgetter(1))#先后按列索引3,4排序
-
-table2 = []
-for line in input_file2:
-    col = line.split(',') #每行分隔为列表，好处理列格式
-    col[1] = str(col[1])
-    table2.append(col) #嵌套列表table[[8,8][*,*],...]
-
-table_sorted2 = sorted(table2, key=itemgetter(1))#先后按列索引3,4排序
-
+table2=csv.reader(input_file2,delimiter=',')
+table_sorted2 = sorted(table2, key=lambda x: x[1])
+table_sorted2.pop()
 
 header='code,name,roe,net_profit_ratio,net_profits,eps,cf_sales,rateofreturn,cashflowratio'
 output_file.write(header+'\n')
-
 #print header
+i=0
+table_sorted1[i]=table_sorted1[i]+table_sorted2[i]
+while i < len(table_sorted1):
+  table_sorted1[i]=table_sorted1[i]+table_sorted2[i]
+  i=i+1
 
-for row1 in table_sorted1:                    #遍历读取排序后的嵌套列表
-  for row2 in table_sorted2:
-        code=row1[1]
-        name=row1[2]
-        roe=row1[3]
-        net_profit_ratio=row1[4]
-        net_profits=row1[6]
-        eps=row1[7]
-        cf_sales=row2[3]
-        rateofreturn=row2[4]
-        cashflowratio=row2[7]
-        output_file.write(code+','+name+','+roe+','+net_profit_ratio+','+net_profits+','+eps+','+cf_sales+','+rateofreturn+','+cashflowratio)
-        break
+table=table_sorted1
+for row in table:                    #遍历读取排序后的嵌套列表
+  code=row[1]
+  name=row[2]
+  roe=row[3]
+  net_profit_ratio=row[4]
+  net_profits=row[6]
+  eps=row[7]
+  cf_sales=row[13]
+  rateofreturn=row[14]
+  cashflowratio=row[17]
+  output_file.write(code+','+name+','+roe+','+net_profit_ratio+','+net_profits+','+eps+','+cf_sales+','+rateofreturn+','+cashflowratio+'\n')
+  #break
 
 input_file1.close()
 input_file2.close()
