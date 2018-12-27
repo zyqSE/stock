@@ -19,7 +19,7 @@
     </style>
     <script>
         //to predict page
-        var stockCode = <%= @stock.code %>;
+        var stockCode = '<%= @stock.code %>';
         $('#btn_predict').on('click', function(){ loadPage('content', urlPrediction + stockCode ) });
     </script>
 </head>
