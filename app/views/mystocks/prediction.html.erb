@@ -42,7 +42,7 @@
                     xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))
                 },
                 url: '/price/'+ stockCode,
-                timeout: 20000,
+                timeout: 40000,
                 error: function(request){
                     alert('Oooops~ Something gose wrong.');
                     chartHistory.hideLoading(); 
