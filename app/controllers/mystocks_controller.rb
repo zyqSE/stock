@@ -20,7 +20,9 @@ def search
 end
 
 def prediction
-  @stock_code = params[:code]
+  mycode=params[:code]
+  mycode=mycode.rjust(6,'0')
+  @stock = Mystock.find_by(code: mycode)
 end
 
 def price
@@ -63,7 +65,9 @@ end
 
 #获取评估页面
 def evaluation
-  @stock_code = params[:code]
+  mycode=params[:code]
+  mycode=mycode.rjust(6,'0')
+  @stock = Mystock.find_by(code: mycode)
 end
 
 #获取评估数据

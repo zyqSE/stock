@@ -20,6 +20,7 @@ class DataLoader():
         Warning: batch method, not generative, make sure you have enough memory to
         load data, otherwise reduce size of the training split.
         '''
+#        print(normalise)
         data_windows = []
         for i in range(self.len_test - seq_len):
 #        for i in range(self.len_test):

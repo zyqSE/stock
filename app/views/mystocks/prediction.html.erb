@@ -23,7 +23,7 @@
         }
     </style>
     <script>
-        var stockCode = <%= @stock_code %>;
+        var stockCode = <%= @stock.code %>;
         var categoryData = [];
         var futureCatagory= [];
         var dailyValues = [];
@@ -42,6 +42,7 @@
                     xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))
                 },
                 url: '/price/'+ stockCode,
+                timeout: 40000,
                 error: function(request){
                     alert('Oooops~ Something gose wrong.');
                     chartHistory.hideLoading(); 
