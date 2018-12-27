@@ -23,6 +23,7 @@
    #创建生产环境数据库并执行迁移
    $ RAILS_ENV=production rake db:create  
    $ RAILS_ENV=production rake db:migrate
+   $ RAILS_ENV=production rake db:seed
    #重新compile assets 这样CSS, script资源才会加载
    $ RAILS_ENV=production rake assets:precompile
    ```
