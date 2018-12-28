@@ -16,6 +16,13 @@
 1. **项目的配置与部署**
    + 确保自己的服务器上已安装了Ruby, Rails以及数据库，详情请参考[《在Aliyun上快速部署Ruby on Rails》](https://ruby-china.org/topics/17553)
    + 下载项目到服务器`git clone https://github.com/zyqSE/stock.git`
+   + 创建项目中忽视的存放数据的文件夹
+   ```
+   $ cd stock/app/controllers/temp
+   $ mkdir data
+   $ cd data
+   $ mkdir history evaluate future
+   ```
    + 安装项目  
    ```
    $ cd stock
@@ -30,7 +37,7 @@
    + 配置定时清理程序，利用`crontab -e`添加定时任务即可（建议每天00:01分执行清理）清理脚本路径`stock/app/controllers/temp/cleanup.sh`
    + 启动应用  
    ```
-   $ cd stock/bin
+   $ cd stock
    $ myrails     #默认80端口
    ```
 2. **TuShare安装**
