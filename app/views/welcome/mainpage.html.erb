@@ -160,9 +160,9 @@
 
         function gotoAnalyse(event){
             stockCode = $(event.target).val();
-            alert(stockCode+": Go to analyse!");
+            //alert(stockCode+": Go to analyse!");
             //load prediction page
-            //loadPage('content', urlPrediction + stockCode);
+            loadPage('content', urlPrediction + stockCode);
         }
 
         function parseNum(rawData){
