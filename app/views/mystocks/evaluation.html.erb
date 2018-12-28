@@ -19,7 +19,7 @@
     </style>
     <script>
         //to predict page
-        var stockCode = <%= @stock.code %>;
+        var stockCode = '<%= @stock.code %>';
         $('#btn_predict').on('click', function(){ loadPage('content', urlPrediction + stockCode ) });
     </script>
 </head>
@@ -91,12 +91,12 @@
                 },
                 indicator: [
                 { name: '净资产收益率 %', min: -100, max: 100},
-                { name: '净利率 %', min: -100, max: 100},
-                { name: '净利润 万元', min: -99999},
-                { name: '每股收益', min: -1000},
-                { name: '资金经营现就流量回报率', min: -100},
-                { name: '现金流量比率', min: -100},
-                { name: '现金销售比率', min: -100}
+                { name: '净利率 %', min: -500, max: 1000},
+                { name: '净利润 万元', min: -2000, max: 2000},
+                { name: '每股收益', min: -1, max: 2},
+                { name: '资金经营现就流量回报率', min: -1, max: 1},
+                { name: '现金流量比率', min: -100, max: 100},
+                { name: '现金销售比率', min: -5, max: 5}
                 ]
             },
             series: [{
