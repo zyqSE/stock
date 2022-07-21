@@ -124,7 +124,7 @@ GEM
     turbolinks (5.2.0)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (0.3.55)
+    tzinfo (0.3.61)
     uglifier (4.1.19)
       execjs (>= 0.3.0, < 3)
 
